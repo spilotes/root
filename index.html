@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="imagex/png" href="./img/logoA.ico" />
+    <title>root</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+      
+    <header class="cabecalho cabecalho--fixo">
+        <div class="google">
+          <a href="https://spilotes.github.io/home/" target="_blank">
+            <img class="logo" src="./img/logo.png" alt="spilotes"
+          /></a>
+        </div>
+
+        <div>
+          <p onclick="music()" class="i1">🎶</p>
+          <p onclick="manga()" class="i2">📓</p>
+          <p onclick="anime()" class="i3">🗾</p>
+          <p onclick="movie()" class="i4">📽️</p>
+        </div>
+
+        <div>
+          <a href="https://www.google.com/" target="_blank"
+            ><img class="lupa" src="./img/lupa.png" alt="search"
+          /></a>
+        </div>
+
+      </header>
+  
+      <main>
+
+        <div>
+        <h1 id="dia"></h1>
+        </div>
+
+          <div class="saudacao">
+            <script language="JavaScript">
+              now = new Date();
+              if (now.getHours() >= 0 && now.getHours() < 5) {
+                document.write("boa madrugada, headbanger.🤘");
+              } else if (now.getHours() >= 5 && now.getHours() < 12) {
+                document.write("bom dia, headbanger.🤘");
+              } else if (now.getHours() >= 12 && now.getHours() < 18) {
+                document.write("boa tarde, headbanger.🤘");
+              } else {
+                document.write("boa noite, headbanger.🤘");
+              }
+            </script>
+          </div>
+        
+        <section class="um">
+          <div class="weather">
+            <div class="location"></div>
+            <div class="summary">----</div>
+            <div class="temp">-°C</div>
+            <div class="icon">---</div>
+          </div>
+
+          <div>
+            <q class="cita">
+              Eu vim até aqui porque eu não<br />
+              queria ficar perto de ninguém.
+            </q>
+            <p>O Chamado da Floresta - Jack London</p>
+          </div>
+
+          <div>
+            <figure>
+              <img class="guts" src="./img/original1.png" />
+            </figure>
+          </div>
+          
+        </section>
+  </body>
+</html>
