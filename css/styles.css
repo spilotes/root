@@ -186,24 +186,24 @@ p {
   }
 
   #dia {
-    top: -1rem;
-    left: -4%;
+    top: 0.5rem;
+    left: -2%;
     font-size: 2rem;
   }
 
   .saudacao {
-    top: 0;
-    left: -3.8%;
+    top: -0.5rem;
+    left: -1.8%;
   }
 
   .weather {
-    top: -2rem;
+    top: -1rem;
     left: 93%;
     font-size: 0.8rem;
   }
 
   q {
-    left: 9%;
+    left: 8%;
     top: 14rem;
     font-size: 1.2rem;
   }
