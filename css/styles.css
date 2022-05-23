@@ -182,24 +182,24 @@ p {
 
   .lupa {
     width: 1.5rem;
-    left: 85%;
+    left: 95%;
   }
 
   #dia {
     margin-left: 5%;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
 
   .saudacao {
     margin-top: 8.5rem;
     margin-left: 7%;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .weather {
     font-size: 0.8rem;
     top: 1rem;
-    left: 85%;
+    left: 95%;
   }
 
   q {
@@ -216,7 +216,7 @@ p {
 
   .guts {
     width: 14rem;
-    top: 28rem;
+    top: 26rem;
     left: 38%;
   }
 }
