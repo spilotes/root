@@ -185,19 +185,19 @@ p {
     left: 90%;
   }
 
-  body {
+  .um {
     height: 300vh;
   }
 
   #dia {
     top: -0.5rem;
-    left: -10%;
+    left: -8.5%;
     font-size: 2rem;
   }
 
   .saudacao {
     top: -1rem;
-    left: -9.8%;
+    left: -7.3%;
   }
 
   .weather {
@@ -207,7 +207,7 @@ p {
   }
 
   q {
-    left: 3%;
+    left: 5.5%;
     top: 14rem;
     font-size: 1.2rem;
   }
