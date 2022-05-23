@@ -160,7 +160,7 @@ p {
   }
 
   .lupa {
-    left: 55%;
+    left: 75%;
   }
 
   #dia {
@@ -176,8 +176,8 @@ p {
 
   .weather {
     font-size: 0.8rem;
-    top: 5.5rem;
-    left: 20%;
+    top: 1rem;
+    left: 75%;
   }
 
   q {
