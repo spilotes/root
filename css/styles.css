@@ -122,27 +122,6 @@ body {
   text-align: right;
 }
 
-.cita {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.cita:hover {
-  color: #007fff;
-}
-
-.guts {
-  position: absolute;
-  width: 22rem;
-  top: 13rem;
-  left: 60%;
-  transition: all 0.3s ease-in-out;
-}
-
-.guts:hover {
-  transform: scale(1.05);
-}
-
 q {
   color: #fff;
   left: 20%;
@@ -160,51 +139,62 @@ p {
   position: absolute;
 }
 
+.guts {
+  position: absolute;
+  width: 22rem;
+  top: 13rem;
+  left: 60%;
+  transition: all 0.3s ease-in-out;
+}
 
+.guts:hover {
+  transform: scale(1.05);
+}
 
 @media (max-width: 414px) {
-    .cabecalho .logo {
-      width: 8.5rem;
-      height: 1.8rem;
-      top: 1em;
-      left: 4%;
-    }
-  
-    .lupa {
-      left: 55%;
-    }
-  
-    #dia {
-      margin-left: 5%;
-      font-size: 2.8rem;
-    }
-  
-    .saudacao {
-      margin-top: 8.5rem;
-      margin-left: 7%;
-      font-size: 1.6rem;
-    }
-  
-    .weather {
-      font-size: 0.8rem;
-      margin-top: 5.5rem;
-      margin-left: 30%;
-    }
-  
-    .guts {
-      top: 28rem;
-      left: 42%;
-    }
-  
-    q {
-      left: 16%;
-      top: 14.5rem;
-      font-size: 1.4rem;
-    }
-  
-    p {
-      width: 100%;
-      top: 18.5rem;
-      left: 27%;
-      font-size: 1.2rem;
-    }
+  .cabecalho .logo {
+    width: 8.5rem;
+    height: 1.8rem;
+    top: 1em;
+    left: 4%;
+  }
+
+  .lupa {
+    left: 55%;
+  }
+
+  #dia {
+    margin-left: 5%;
+    font-size: 2.8rem;
+  }
+
+  .saudacao {
+    margin-top: 8.5rem;
+    margin-left: 7%;
+    font-size: 1.6rem;
+  }
+
+  .weather {
+    font-size: 0.8rem;
+    top: 5.5rem;
+    left: 20%;
+  }
+
+  q {
+    left: 10%;
+    top: 14.5rem;
+    font-size: 1.4rem;
+  }
+
+  p {
+    width: 100%;
+    top: 18.5rem;
+    left: 10%;
+    font-size: 1.2rem;
+  }
+
+  .guts {
+    top: 28rem;
+    left: 22%;
+  }
+}
