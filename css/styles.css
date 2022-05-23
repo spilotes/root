@@ -99,8 +99,8 @@ body {
 #dia {
   font-size: 2.5rem;
   font-weight: 600;
-  margin-top: 5rem;
-  margin-left: 10%;
+  top: 5rem;
+  left: 10%;
   position: absolute;
   visibility: hidden;
 }
@@ -108,16 +108,16 @@ body {
 .saudacao {
   font-size: 1.3rem;
   color: #fff;
-  margin-top: 8rem;
-  margin-left: 10.2%;
+  top: 8rem;
+  left: 10.4%;
   position: absolute;
   visibility: hidden;
 }
 
 .weather {
   position: absolute;
-  margin-top: 5.5rem;
-  left: 80.5%;
+  top: 5rem;
+  left: 87%;
   color: #000000;
   text-align: left;
   text-align: right;
@@ -125,7 +125,7 @@ body {
 
 q {
   color: #fff;
-  left: 20%;
+  left: 16%;
   top: 14.5rem;
   position: absolute;
   font-size: 1.4rem;
@@ -150,6 +150,44 @@ p {
 
 .guts:hover {
   transform: scale(1.05);
+}
+
+.dois {
+  height: 215vh;
+  width: 100vw;
+}
+
+.musica {
+  left: 44%;
+  color: #000000;
+  font-size: 2.1rem;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.musica:hover {
+  color: #fff;
+}
+
+.ozzy {
+  width: 33rem;
+  left: 30%;
+  top: 47rem;
+  position: absolute;
+}
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #122549;
 }
 
 @media (max-width: 414px) {
@@ -223,5 +261,19 @@ p {
     width: 14rem;
     top: 26rem;
     left: 38%;
+  }
+
+  .dois {
+    height: 200vh;
+  }
+
+  .musica {
+    top: 62rem;
+  }
+
+  .ozzy {
+    width: 33rem;
+    top: 67rem;
+    left: 0;
   }
 }
