@@ -12,6 +12,7 @@
   background: #000000;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  width: 100vw;
 }
 
 .cabecalho--fixo {
@@ -154,7 +155,6 @@ p {
 @media (max-width: 414px) {
   .cabecalho .logo {
     width: 8.5rem;
-    height: 1.8rem;
     top: 1em;
     left: 4%;
   }
