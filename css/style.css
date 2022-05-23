@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#122549),
+    to(#ff7c60)
+  );
+  overflow-x: hidden;
+}
+
+#s-home {
+  width: 100%;
+  height: 100vh;
+}
+
+#dia {
+  font-size: 2.2rem;
+  font-weight: 600;
+  top: 2rem;
+  left: 20%;
+  cursor: pointer;
+  position: absolute;
+}
+
+.saudacao {
+  font-size: 1.2rem;
+  color: #fff;
+  top: 4.3rem;
+  left: 20.2%;
+  cursor: pointer;
+  position: absolute;
+  visibility: hidden;
+}
+
+.weather {
+  top: 2rem;
+  left: 74%;
+  text-align: right;
+  position: absolute;
+  visibility: hidden;
+}
+
+.location {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.location:hover {
+  color: #fff;
+}
+
+.summary {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.summary:hover {
+  color: #fff;
+}
+
+.temp {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.temp:hover {
+  color: #fff;
+}
+
+.icon {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.03);
+}
+
+main #s-home {
+  display: grid;
+  grid-template-columns: repeat(1, 8rem);
+  grid-template-rows: minmax(4rem, auto) repeat(2, 2rem);
+}
+
+.yo {
+  width: 15rem;
+  top: 3.5rem;
+  left: 41%;
+  position: absolute;
+  border-radius: 7.5rem;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+.yo:hover {
+  transform: scale(1.03);
+}
+
+#s-home .h3 {
+  cursor: pointer;
+  font-size: 1.6rem;
+  top: 19rem;
+  left: 41.5%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+#s-home .h3:hover {
+  color: #fff;
+}
+
+#s-home span {
+  top: 21rem;
+  left: 41.6%;
+  font-style: italic;
+  position: absolute;
+  visibility: hidden;
+}
+
+#s-home .email {
+  top: 23rem;
+  left: 41.5%;
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+#s-home .email:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 8rem;
+  top: 25.3rem;
+  left: 49.4%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#s-home .links-container {
+  display: flex;
+  left: 23.1rem;
+  flex-direction: column;
+  top: 28rem;
+  position: absolute;
+  visibility: hidden;
+}
+
+#s-home .links-container aside {
+  display: flex;
+}
+
+#s-home .links-container aside a {
+  text-decoration: none;
+}
+
+#s-home .links-container aside i {
+  width: 3.1rem;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.7rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#s-home .links-container aside .telegram {
+  color: #000000;
+}
+
+#s-home .links-container aside .telegram:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .whatsapp {
+  color: #000000;
+}
+
+#s-home .links-container aside .whatsapp:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .github {
+  color: #000000;
+}
+
+#s-home .links-container aside .github:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .linkedin {
+  color: #000000;
+}
+
+#s-home .links-container aside .linkedin:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .instagram {
+  color: #000000;
+}
+
+#s-home .links-container aside .instagram:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .codepen {
+  color: #000000;
+}
+
+#s-home .links-container aside .codepen:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .facebook {
+  color: #000000;
+}
+
+#s-home .links-container aside .facebook:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .youtube {
+  color: #000000;
+}
+
+#s-home .links-container aside .youtube:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .twitch {
+  color: #000000;
+}
+
+#s-home .links-container aside .twitch:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .spotify {
+  color: #000000;
+}
+
+#s-home .links-container aside .spotify:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 414px) {
+  main #s-home {
+    height: 91vh;
+  }
+
+  #dia {
+    top: 1rem;
+    left: 4%;
+    font-size: 2rem;
+  }
+
+  .saudacao {
+    top: 3.5rem;
+    left: 4.8%;
+  }
+
+  .weather {
+    top: 1rem;
+    left: 92%;
+  }
+
+  .yo {
+    width: 12rem;
+    top: 8.5rem;
+    left: 26%;
+    border-radius: 6rem;
+  }
+
+  .h3 {
+    margin-top: 1.8rem;
+    margin-left: -4.7rem;
+  }
+
+  span {
+    margin-top: 1.5rem;
+    margin-left: -4.7rem;
+  }
+
+  .email {
+    margin-top: 1.7rem;
+    margin-left: -5.1rem;
+    top: 30rem;
+  }
+
+  .logo {
+    top: 27rem;
+    left: 48.3%;
+  }
+
+  #s-home .links-container {
+    top: 27.5rem;
+    left: 17%;
+  }
+
+  #s-home .links-container aside {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(5, 3.5rem);
+    grid-template-rows: minmax(3.5rem, auto) repeat(5, 2rem);
+  }
+
+  #s-home .links-container aside i {
+    font-size: 2.6rem;
+    padding: 0;
+  }
+} ;
