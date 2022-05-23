@@ -159,7 +159,29 @@ p {
     left: 4%;
   }
 
+  .logo {
+    width: 8rem;
+    top: 1em;
+  }
+
+  .i1 {
+    visibility: hidden;
+  }
+
+  .i2 {
+    visibility: hidden;
+  }
+
+  .i3 {
+    visibility: hidden;
+  }
+
+  .i4 {
+    visibility: hidden;
+  }
+
   .lupa {
+    width: 1.5rem;
     left: 75%;
   }
 
@@ -187,12 +209,13 @@ p {
   }
 
   p {
-    top: 18.5rem;
-    left: 10%;
+    top: 17.5rem;
+    left: 15%;
     font-size: 1rem;
   }
 
   .guts {
+    width: 14rem;
     top: 28rem;
     left: 22%;
   }
