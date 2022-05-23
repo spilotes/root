@@ -182,7 +182,7 @@ p {
 
   .lupa {
     width: 1.5rem;
-    left: 75%;
+    left: 85%;
   }
 
   #dia {
@@ -199,7 +199,7 @@ p {
   .weather {
     font-size: 0.8rem;
     top: 1rem;
-    left: 75%;
+    left: 85%;
   }
 
   q {
@@ -217,6 +217,6 @@ p {
   .guts {
     width: 14rem;
     top: 28rem;
-    left: 22%;
+    left: 38%;
   }
 }
