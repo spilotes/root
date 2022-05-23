@@ -198,6 +198,7 @@ p {
   .saudacao {
     top: -1rem;
     left: -6.3%;
+    font-size: 1.2rem;
   }
 
   .weather {
@@ -209,7 +210,7 @@ p {
   q {
     left: 6.5%;
     top: 14rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   p {
