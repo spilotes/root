@@ -182,24 +182,24 @@ p {
 
   .lupa {
     width: 1.5rem;
-    left: 95%;
+    left: 92%;
   }
 
   #dia {
-    margin-left: 5%;
-    font-size: 2.4rem;
+    top: 1rem;
+    left: 4%;
+    font-size: 2rem;
   }
 
   .saudacao {
-    margin-top: 8.5rem;
-    margin-left: 7%;
-    font-size: 1.4rem;
+    top: 3.5rem;
+    left: 4.8%;
   }
 
   .weather {
-    font-size: 0.8rem;
     top: 1rem;
-    left: 95%;
+    left: 92%;
+    font-size: 0.8rem;
   }
 
   q {
