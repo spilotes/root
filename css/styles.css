@@ -191,13 +191,13 @@ p {
 
   #dia {
     top: -0.5rem;
-    left: -8.5%;
+    left: -7.5%;
     font-size: 2rem;
   }
 
   .saudacao {
     top: -1rem;
-    left: -7.3%;
+    left: -6.3%;
   }
 
   .weather {
@@ -207,7 +207,7 @@ p {
   }
 
   q {
-    left: 5.5%;
+    left: 6.5%;
     top: 14rem;
     font-size: 1.2rem;
   }
