@@ -527,6 +527,49 @@ p {
   width: 100vw;
 }
 
+.anime {
+  z-index: 999;
+  left: 45%;
+  color: #000000;
+  font-size: 2.5rem;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.anime:hover {
+  color: #fff;
+}
+
+.superanimes {
+  z-index: 999;
+  top: 240rem;
+  left: 47.5%;
+  width: 4.5rem;
+  border-radius: 2.25rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.superanime:hover {
+  transform: scale(1.03);
+}
+
+.s-superanimes {
+  z-index: 999;
+  top: 245rem;
+  left: 46.5%;
+  color: #fff;
+  position: absolute;
+}
+
+.mirai {
+  width: 23rem;
+  top: 226rem;
+  left: 55%;
+  position: absolute;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }

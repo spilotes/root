@@ -248,7 +248,7 @@
 
   .kny {
     width: 11rem;
-    top: 168.2rem;
+    top: 166.2rem;
     left: 55%;
   }
 
@@ -267,5 +267,26 @@
   .quatro {
     width: 100%;
     height: 160vh;
+  }
+
+  .anime {
+    top: 218.5rem;
+    left: 43%;
+  }
+
+  .superanimes {
+    top: 258rem;
+    left: 55%;
+  }
+
+  .s-superanimes {
+    top: 263rem;
+    left: 52%;
+  }
+
+  .mirai {
+    top: 219rem;
+    left: 0;
+    width: 33rem;
   }
 }
