@@ -270,13 +270,13 @@
   }
 
   .mirai {
-    top: 195.5rem;
+    top: 196rem;
     left: 0;
     width: 25.8rem;
   }
 
   .anime {
-    top: 188.5rem;
+    top: 189rem;
     left: 33%;
   }
 
@@ -291,19 +291,19 @@
   }
 
   .continue {
-    top: 268rem;
-    left: 33%;
+    top: 243rem;
+    left: 23%;
   }
 
   .watching1 {
-    width: 14rem;
+    width: 12rem;
     top: 272rem;
-    left: 6%;
+    left: 4%;
   }
 
   .watching2 {
-    width: 14rem;
+    width: 12rem;
     top: 272rem;
-    left: 69%;
+    left: 30%;
   }
 }

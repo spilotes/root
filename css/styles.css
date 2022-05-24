@@ -542,7 +542,6 @@ p {
 }
 
 .superanimes {
-  z-index: 999;
   top: 240rem;
   left: 47.5%;
   width: 4.5rem;
@@ -556,7 +555,6 @@ p {
 }
 
 .s-superanimes {
-  z-index: 999;
   top: 245rem;
   left: 46.5%;
   color: #fff;
