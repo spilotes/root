@@ -270,23 +270,23 @@
   }
 
   .mirai {
-    top: 205rem;
+    top: 200rem;
     left: 0;
-    width: 15rem;
+    width: 20rem;
   }
 
   .anime {
-    top: 204.5rem;
+    top: 199.5rem;
     left: 43%;
   }
 
   .superanimes {
-    top: 244rem;
+    top: 239rem;
     left: 55%;
   }
 
   .s-superanimes {
-    top: 249rem;
+    top: 244rem;
     left: 52%;
   }
 }

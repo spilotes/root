@@ -531,7 +531,7 @@ p {
   z-index: 999;
   left: 45%;
   color: #000000;
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: absolute;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
