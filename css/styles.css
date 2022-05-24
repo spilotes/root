@@ -386,7 +386,7 @@ p {
   top: 135rem;
   left: 43.5%;
   color: #000000;
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: absolute;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -399,9 +399,8 @@ p {
 .banner {
   width: 60rem;
   top: 142rem;
-  left: 13.5%;
+  left: 0;
   position: absolute;
-  visibility: hidden;
 }
 
 ::-webkit-scrollbar {
