@@ -408,7 +408,7 @@ p {
   }
 
   .a_mais {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     top: 95rem;
     left: 4%;
   }
@@ -416,7 +416,7 @@ p {
   .mais_ouvida {
     top: 98rem;
     left: 4%;
-    width: 6rem;
+    width: 5.5rem;
   }
 
   .s-artista1 {
@@ -430,12 +430,12 @@ p {
   }
 
   .spotify {
-    top: 112rem;
-    left: 35%;
+    top: -10rem;
+    left: 38%;
   }
 
   .s-spotify {
-    top: 113rem;
-    left: 34%;
+    top: 100rem;
+    left: 40%;
   }
 }
