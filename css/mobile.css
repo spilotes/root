@@ -228,6 +228,36 @@
     left: 53%;
   }
 
+  .berserk {
+    top: 188rem;
+    left: 4%;
+  }
+
+  .claymore {
+    top: 189rem;
+    left: 60%;
+  }
+
+  .snk {
+    top: 198rem;
+    left: 4%;
+  }
+
+  .kny {
+    top: 193.2rem;
+    left: 60%;
+  }
+
+  .cdz {
+    top: 205rem;
+    left: 5%;
+  }
+
+  .rurouni_kenshin {
+    top: 205rem;
+    left: 60%;
+  }
+
   .quatro {
     width: 100%;
     height: 160vh;
