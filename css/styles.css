@@ -193,8 +193,8 @@ p {
 
 .ana {
   top: 41.2rem;
-  left: 28%;
-  width: 11rem;
+  left: 4%;
+  width: 5rem;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
@@ -206,7 +206,7 @@ p {
 .ozzy1 {
   top: 26rem;
   left: 43%;
-  width: 11rem;
+  width: 6rem;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
@@ -217,8 +217,8 @@ p {
 
 .mon {
   top: 16.2rem;
-  left: 58%;
-  width: 10rem;
+  right: 13%;
+  width: 5rem;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
@@ -323,29 +323,29 @@ p {
   }
 
   .ozzy {
-    width: 25.5rem;
+    width: 25.7rem;
     top: 57rem;
     left: 0;
   }
 
   .top3 {
     font-size: 1.6rem;
-    top: 94rem;
-    left: 55%;
+    top: 82rem;
+    left: 35%;
   }
 
   .ana {
-    top: 51.7rem;
+    top: 39.7rem;
     left: 4%;
   }
 
   .ozzy1 {
-    top: 36.5rem;
+    top: 24.5rem;
     left: 45%;
   }
 
   .mon {
-    top: 26.6rem;
+    top: 14.6rem;
     left: 88%;
   }
 }
