@@ -455,7 +455,6 @@ p {
   top: 190rem;
   left: 34%;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -468,7 +467,6 @@ p {
   top: 191.5rem;
   left: 52%;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -481,7 +479,6 @@ p {
   top: 201rem;
   left: 34%;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -494,7 +491,6 @@ p {
   top: 196.7rem;
   left: 52%;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -507,7 +503,6 @@ p {
   top: 209rem;
   left: 34%;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -520,7 +515,6 @@ p {
   top: 209rem;
   left: 52%;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
