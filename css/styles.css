@@ -571,24 +571,24 @@ p {
   .ultimo_disco {
     font-size: 1.5rem;
     top: 111rem;
-    left: 60%;
+    left: 40%;
   }
 
   .last_disc {
     top: 113rem;
-    left: 60%;
-    width: 12rem;
+    left: 40%;
+    width: 10rem;
   }
 
   .s-artista {
     top: 117.7rem;
-    left: 60%;
+    left: 40%;
   }
 
   .s-disc_name {
     width: 100%;
     top: 118.7rem;
-    left: 60%;
+    left: 40%;
   }
 
   .tres {
