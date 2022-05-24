@@ -463,11 +463,11 @@ p {
 
   .spotify {
     top: -5.3rem;
-    margin-left: 0;
+    margin-left: 0.2rem;
   }
 
   .s-spotify {
-    top: 102.7rem;
+    top: 102.8rem;
     left: 44%;
   }
 
@@ -485,6 +485,6 @@ p {
 
   .s-playlist {
     top: 104.5rem;
-    left: 73%;
+    left: 75.5%;
   }
 }
