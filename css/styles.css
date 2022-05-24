@@ -314,6 +314,74 @@ p {
   position: absolute;
 }
 
+.rollingstone {
+  top: 112rem;
+  left: 28%;
+  width: 15rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.rollingstone:hover {
+  transform: scale(1.03);
+}
+
+.tmdqa {
+  top: 118.5rem;
+  left: 28%;
+  width: 12rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.tmdqa:hover {
+  transform: scale(1.02);
+}
+
+.ultimo_disco {
+  top: 110rem;
+  left: 60.7%;
+  color: #000000;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.ultimo_disco:hover {
+  color: #fff;
+}
+
+.last_disc {
+  top: 113.8rem;
+  left: 59%;
+  width: 10.5rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.last_disc:hover {
+  transform: scale(1.03);
+}
+
+.s-artista {
+  top: 125rem;
+  left: 59%;
+  color: #fff;
+  position: absolute;
+}
+
+.s-disc_name {
+  top: 126rem;
+  left: 59%;
+  color: #fff;
+  position: absolute;
+}
+
+.tres {
+  height: 220vh;
+  width: 100vw;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
@@ -463,7 +531,7 @@ p {
 
   .spotify {
     top: -5.3rem;
-    margin-left: 0.2rem;
+    margin-left: 0.1rem;
   }
 
   .s-spotify {
@@ -485,6 +553,44 @@ p {
 
   .s-playlist {
     top: 104.5rem;
-    left: 75.5%;
+    left: 77%;
+  }
+
+  .rollingstone {
+    top: 129.5rem;
+    left: 8%;
+  }
+
+  .tmdqa {
+    top: 136rem;
+    left: 12%;
+  }
+
+  .ultimo_disco {
+    width: 100%;
+    font-size: 1.5rem;
+    top: 131rem;
+    left: 82%;
+  }
+
+  .last_disc {
+    top: 134rem;
+    left: 81%;
+  }
+
+  .s-artista {
+    top: 144.7rem;
+    left: 81%;
+  }
+
+  .s-disc_name {
+    width: 100%;
+    top: 145.7rem;
+    left: 81%;
+  }
+
+  .tres {
+    width: 100%;
+    height: 120vh;
   }
 }
