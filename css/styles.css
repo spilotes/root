@@ -403,6 +403,46 @@ p {
   position: absolute;
 }
 
+.mangalivre {
+  top: 181rem;
+  left: 42.2%;
+  width: 4.5rem;
+  border-radius: 2.25rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.mangalivre:hover {
+  transform: scale(1.03);
+}
+
+.s-mangalivre {
+  top: 186rem;
+  left: 42.2%;
+  color: #fff;
+  position: absolute;
+}
+
+.yes_mangas {
+  top: 181rem;
+  left: 52.6%;
+  width: 4.5rem;
+  border-radius: 2.25rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.yes_mangas:hover {
+  transform: scale(1.03);
+}
+
+.s-yes_mangas {
+  top: 186rem;
+  left: 52.2%;
+  color: #fff;
+  position: absolute;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
