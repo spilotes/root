@@ -282,6 +282,38 @@ p {
   position: absolute;
 }
 
+.h-headbanger {
+  top: 95rem;
+  left: 62.7%;
+  color: #000000;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.h-headbanger:hover {
+  color: #fff;
+}
+
+.img_headbanger {
+  top: 98rem;
+  left: 62%;
+  width: 8rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.img_headbanger:hover {
+  transform: scale(1.03);
+}
+
+.s-playlist {
+  top: 106.9rem;
+  left: 65%;
+  color: #fff;
+  position: absolute;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
@@ -435,7 +467,23 @@ p {
   }
 
   .s-spotify {
-    top: 103rem;
+    top: 102.7rem;
     left: 44%;
+  }
+
+  .h-headbanger {
+    font-size: 1.5rem;
+    top: 115rem;
+    left: 83%;
+  }
+
+  .img_headbanger {
+    top: 118rem;
+    left: 90%;
+  }
+
+  .s-playlist {
+    top: 126.7rem;
+    left: 100%;
   }
 }
