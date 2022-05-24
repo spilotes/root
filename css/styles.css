@@ -559,34 +559,36 @@ p {
   .rollingstone {
     top: 129.5rem;
     left: 8%;
+    width: 12rem;
   }
 
   .tmdqa {
     top: 136rem;
     left: 12%;
+    width: 10rem;
   }
 
   .ultimo_disco {
-    width: 100%;
     font-size: 1.5rem;
-    top: 131rem;
-    left: 82%;
+    top: 111rem;
+    left: 60%;
   }
 
   .last_disc {
-    top: 134rem;
-    left: 81%;
+    top: 113rem;
+    left: 60%;
+    width: 12rem;
   }
 
   .s-artista {
-    top: 144.7rem;
-    left: 81%;
+    top: 117.7rem;
+    left: 60%;
   }
 
   .s-disc_name {
     width: 100%;
-    top: 145.7rem;
-    left: 81%;
+    top: 118.7rem;
+    left: 60%;
   }
 
   .tres {
