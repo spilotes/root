@@ -472,18 +472,19 @@ p {
   }
 
   .h-headbanger {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     top: 95rem;
-    left: 43%;
+    right: 4%;
   }
 
   .img_headbanger {
     top: 98rem;
-    left: 53%;
+    left: 63%;
+    width: 5.5rem;
   }
 
   .s-playlist {
     top: 106.7rem;
-    left: 53%;
+    left: 63%;
   }
 }
