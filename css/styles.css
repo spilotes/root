@@ -430,12 +430,12 @@ p {
   }
 
   .spotify {
-    top: -10rem;
-    left: 38%;
+    top: 0rem;
+    left: 36%;
   }
 
   .s-spotify {
-    top: 100rem;
+    top: 102rem;
     left: 40%;
   }
 }
