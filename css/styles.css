@@ -575,6 +575,10 @@ p {
   position: absolute;
 }
 
+.continue {
+  color: #fff;
+}
+
 .watching1 {
   top: 230rem;
   left: 11%;
