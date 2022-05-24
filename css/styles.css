@@ -227,6 +227,41 @@ p {
   transform: scale(1.03);
 }
 
+.a_mais {
+  top: 95rem;
+  left: 28%;
+  color: #000000;
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.a_mais:hover {
+  color: #fff;
+}
+
+.mais_ouvida {
+  top: 98rem;
+  left: 28%;
+  width: 7rem;
+  position: absolute;
+}
+
+.s-artista1 {
+  top: 105.6rem;
+  left: 28%;
+  color: #fff;
+  position: absolute;
+}
+
+.s-musica {
+  top: 106.7rem;
+  left: 28%;
+  color: #fff;
+  position: absolute;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
@@ -337,7 +372,7 @@ p {
   .ana {
     top: 35.7rem;
     left: 4%;
-    width: 7rem;
+    width: 7.5rem;
   }
 
   .ozzy1 {
@@ -350,5 +385,26 @@ p {
     top: 17.6rem;
     left: 68%;
     width: 7rem;
+  }
+
+  .a_mais {
+    font-size: 1.5rem;
+    top: 115rem;
+    left: 8%;
+  }
+
+  .mais_ouvida {
+    top: 118rem;
+    left: 8%;
+  }
+
+  .s-artista1 {
+    top: 124.2rem;
+    left: 8%;
+  }
+
+  .s-musica {
+    top: 125.2rem;
+    left: 8%;
   }
 }
