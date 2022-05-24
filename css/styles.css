@@ -323,29 +323,32 @@ p {
   }
 
   .ozzy {
-    width: 25.7rem;
+    width: 25.8rem;
     top: 57rem;
     left: 0;
   }
 
   .top3 {
     font-size: 1.6rem;
-    top: 82rem;
-    left: 35%;
+    top: 77rem;
+    left: 40%;
   }
 
   .ana {
     top: 39.7rem;
     left: 4%;
+    width: 7rem;
   }
 
   .ozzy1 {
     top: 24.5rem;
     left: 45%;
+    width: 8rem;
   }
 
   .mon {
     top: 14.6rem;
-    left: 88%;
+    left: 68%;
+    width: 7rem;
   }
 }
