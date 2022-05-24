@@ -233,7 +233,6 @@ p {
   color: #000000;
   position: absolute;
   cursor: pointer;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -320,7 +319,7 @@ p {
 
   .saudacao {
     top: 7rem;
-    left: 4.6%;
+    left: 5%;
     font-size: 1.2rem;
   }
 
@@ -389,22 +388,23 @@ p {
 
   .a_mais {
     font-size: 1.5rem;
-    top: 115rem;
+    top: 105rem;
     left: 8%;
   }
 
   .mais_ouvida {
-    top: 118rem;
-    left: 8%;
+    top: 108rem;
+    left: 4%;
+    width: 6rem;
   }
 
   .s-artista1 {
-    top: 124.2rem;
-    left: 8%;
+    top: 114.2rem;
+    left: 4%;
   }
 
   .s-musica {
-    top: 125.2rem;
-    left: 8%;
+    top: 115.2rem;
+    left: 4%;
   }
 }
