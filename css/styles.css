@@ -443,6 +443,96 @@ p {
   position: absolute;
 }
 
+.mangas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  row-gap: 3rem;
+}
+
+.berserk {
+  width: 12rem;
+  top: 190rem;
+  left: 34%;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.berserk:hover {
+  transform: scale(1.03);
+}
+
+.claymore {
+  width: 12rem;
+  top: 191.5rem;
+  left: 52%;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.claymore:hover {
+  transform: scale(1.03);
+}
+
+.snk {
+  width: 12rem;
+  top: 201rem;
+  left: 34%;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.snk:hover {
+  transform: scale(1.03);
+}
+
+.kny {
+  width: 12rem;
+  top: 196.7rem;
+  left: 52%;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.kny:hover {
+  transform: scale(1.03);
+}
+
+.cdz {
+  width: 12rem;
+  top: 209rem;
+  left: 34%;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.cdz:hover {
+  transform: scale(1.03);
+}
+
+.rurouni_kenshin {
+  width: 12rem;
+  top: 209rem;
+  left: 52%;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.rurouni_kenshin:hover {
+  transform: scale(1.03);
+}
+
+.quatro {
+  height: 100vh;
+  width: 100vw;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
