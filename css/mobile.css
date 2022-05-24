@@ -209,12 +209,22 @@
   }
 
   .mangalivre {
-    top: 178rem;
-    left: 40.2%;
+    top: 150rem;
+    left: 30.2%;
   }
 
   .s-mangalivre {
-    top: 183rem;
-    left: 40%;
+    top: 152rem;
+    left: 30%;
+  }
+
+  .yes_mangas {
+    top: 150rem;
+    left: 50.6%;
+  }
+
+  .s-yes_mangas {
+    top: 152rem;
+    left: 50%;
   }
 }
