@@ -261,6 +261,27 @@ p {
   position: absolute;
 }
 
+.spotify {
+  width: 4.5rem;
+  border-radius: 2.25rem;
+  top: -5rem;
+  left: -25%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+}
+
+.spotify:hover {
+  transform: scale(1.03);
+}
+
+.s-spotify {
+  color: #fff;
+  top: 102rem;
+  left: 48%;
+  position: absolute;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
@@ -388,23 +409,33 @@ p {
 
   .a_mais {
     font-size: 1.5rem;
-    top: 105rem;
-    left: 8%;
+    top: 95rem;
+    left: 4%;
   }
 
   .mais_ouvida {
-    top: 108rem;
+    top: 98rem;
     left: 4%;
     width: 6rem;
   }
 
   .s-artista1 {
-    top: 114.2rem;
+    top: 104.2rem;
     left: 4%;
   }
 
   .s-musica {
-    top: 115.2rem;
+    top: 105.2rem;
     left: 4%;
+  }
+
+  .spotify {
+    top: -5rem;
+    left: -0.7rem;
+  }
+
+  .s-spotify {
+    top: 125.2rem;
+    left: 15.3rem;
   }
 }
