@@ -291,19 +291,19 @@
   }
 
   .continue {
-    top: 243rem;
+    top: 241.5rem;
     left: 23%;
   }
 
   .watching1 {
     width: 12rem;
-    top: 272rem;
+    top: 243rem;
     left: 4%;
   }
 
   .watching2 {
     width: 12rem;
-    top: 272rem;
-    left: 30%;
+    top: 243rem;
+    left: 40%;
   }
 }
