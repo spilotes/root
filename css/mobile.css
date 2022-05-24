@@ -312,13 +312,13 @@
   }
 
   .movies {
-    top: 273rem;
-    left: 35%;
+    top: 266rem;
+    left: 25%;
   }
 
   .camera {
-    width: 15rem;
-    top: 278rem;
+    width: 20rem;
+    top: 271rem;
     left: 0;
   }
 }
