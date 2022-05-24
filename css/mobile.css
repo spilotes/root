@@ -138,7 +138,7 @@
   }
 
   .s-spotify {
-    top: 102.8rem;
+    top: 102.6rem;
     left: 44%;
   }
 
@@ -159,38 +159,38 @@
     left: 77%;
   }
 
-  .rollingstone {
-    top: 115.5rem;
-    left: 4%;
-    width: 12rem;
-  }
-
-  .tmdqa {
-    top: 136rem;
-    left: 12%;
-    width: 10rem;
-  }
-
   .ultimo_disco {
     font-size: 1.4rem;
-    top: 106rem;
-    left: 50%;
+    top: 110rem;
+    left: 4%;
   }
 
   .last_disc {
-    top: 108rem;
-    left: 50%;
+    top: 112rem;
+    left: 4%;
     width: 8rem;
   }
 
   .s-artista {
     top: 112.7rem;
-    left: 50%;
+    left: 4%;
   }
 
   .s-disc_name {
     top: 113.7rem;
-    left: 50%;
+    left: 4%;
+  }
+
+  .rollingstone {
+    top: 110.5rem;
+    left: 55%;
+    width: 12rem;
+  }
+
+  .tmdqa {
+    top: 113rem;
+    left: 55%;
+    width: 9rem;
   }
 
   .tres {
