@@ -220,7 +220,7 @@ p {
 
   .lupa {
     width: 1.5rem;
-    left: 88%;
+    left: 89%;
   }
 
   .um {
@@ -228,14 +228,14 @@ p {
   }
 
   #dia {
-    top: 4.5rem;
-    left: 7.5%;
+    top: 5rem;
+    left: 5%;
     font-size: 1.9rem;
   }
 
   .saudacao {
-    top: 6rem;
-    left: 7.8%;
+    top: 7rem;
+    left: 5.3%;
     font-size: 1.2rem;
   }
 
@@ -269,11 +269,11 @@ p {
 
   .musica {
     top: 52rem;
-    left: 40%;
+    left: 32%;
   }
 
   .ozzy {
-    width: 26rem;
+    width: 25.5rem;
     top: 57rem;
     left: 0;
   }
