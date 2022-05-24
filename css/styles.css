@@ -575,7 +575,7 @@ p {
   position: absolute;
 }
 
-.continue {
+.continue:hover {
   color: #fff;
 }
 
@@ -601,6 +601,38 @@ p {
 
 .watching2:hover {
   transform: scale(1.03);
+}
+
+.cinco {
+  width: 100vw;
+  height: 150vh;
+}
+
+.movies {
+  left: 39%;
+  color: #000000;
+  font-size: 2.5rem;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.movies:hover {
+  color: #fff;
+}
+
+.camera {
+  top: 268rem;
+  left: 10%;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.camera:active {
+  top: 270rem;
+  z-index: 999;
+  transform: scale(1.5);
 }
 
 ::-webkit-scrollbar {

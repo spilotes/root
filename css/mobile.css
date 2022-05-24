@@ -306,4 +306,19 @@
     top: 243.5rem;
     left: 51%;
   }
+
+  .cinco {
+    height: 200vh;
+  }
+
+  .movies {
+    top: 302rem;
+    left: 45%;
+  }
+
+  .camera {
+    width: 33rem;
+    top: 307rem;
+    left: 0;
+  }
 }
