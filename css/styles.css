@@ -160,7 +160,7 @@ p {
 .musica {
   left: 44%;
   color: #000000;
-  font-size: 2.1rem;
+  font-size: 2rem;
   position: absolute;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -175,6 +175,56 @@ p {
   left: 30%;
   top: 47rem;
   position: absolute;
+}
+
+.top3 {
+  top: 73rem;
+  left: 46.5%;
+  color: #000000;
+  font-size: 1.6rem;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.top3:hover {
+  color: #fff;
+}
+
+.ana {
+  top: 41.2rem;
+  left: 28%;
+  width: 11rem;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.ana:hover {
+  transform: scale(1.03);
+}
+
+.ozzy1 {
+  top: 26rem;
+  left: 43%;
+  width: 11rem;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.ozzy1:hover {
+  transform: scale(1.03);
+}
+
+.mon {
+  top: 16.2rem;
+  left: 58%;
+  width: 10rem;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.mon:hover {
+  transform: scale(1.03);
 }
 
 ::-webkit-scrollbar {
@@ -228,14 +278,14 @@ p {
   }
 
   #dia {
-    top: 5rem;
-    left: 5%;
+    top: 4.5rem;
+    left: 4%;
     font-size: 1.9rem;
   }
 
   .saudacao {
     top: 7rem;
-    left: 5.3%;
+    left: 4.3%;
     font-size: 1.2rem;
   }
 
@@ -276,5 +326,26 @@ p {
     width: 25.5rem;
     top: 57rem;
     left: 0;
+  }
+
+  .top3 {
+    font-size: 1.6rem;
+    top: 94rem;
+    left: 55%;
+  }
+
+  .ana {
+    top: 51.7rem;
+    left: 4%;
+  }
+
+  .ozzy1 {
+    top: 36.5rem;
+    left: 45%;
+  }
+
+  .mon {
+    top: 26.6rem;
+    left: 88%;
   }
 }
