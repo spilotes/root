@@ -282,11 +282,28 @@
 
   .superanimes {
     top: 233rem;
-    left: 40%;
+    left: 41%;
   }
 
   .s-superanimes {
     top: 238rem;
-    left: 37%;
+    left: 38%;
+  }
+
+  .continue {
+    top: 268rem;
+    left: 33%;
+  }
+
+  .watching1 {
+    width: 14rem;
+    top: 272rem;
+    left: 6%;
+  }
+
+  .watching2 {
+    width: 14rem;
+    top: 272rem;
+    left: 69%;
   }
 }

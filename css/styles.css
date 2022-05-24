@@ -570,6 +570,37 @@ p {
   position: absolute;
 }
 
+.continue {
+  font-size: 1.4rem;
+  top: 226rem;
+  left: 17%;
+  position: absolute;
+}
+
+.watching1 {
+  top: 230rem;
+  left: 11%;
+  width: 14rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.watching1:hover {
+  transform: scale(1.03);
+}
+
+.watching2 {
+  top: 230rem;
+  left: 29%;
+  width: 14rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.watching2:hover {
+  transform: scale(1.03);
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
