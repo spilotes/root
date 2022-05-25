@@ -701,6 +701,18 @@ p {
   position: absolute;
 }
 
+.c-filme {
+  top: 270.5rem;
+  left: 64%;
+  width: 14rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.c-filme:hover {
+  transform: scale(1.03);
+}
+
 .start {
   font-size: 1.4rem;
   top: 320rem;
