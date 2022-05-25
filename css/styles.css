@@ -782,9 +782,13 @@ p {
   transform: scale(1.03);
 }
 
+.seis {
+  height: 100vh;
+}
+
 .start {
   font-size: 1.4rem;
-  top: 320rem;
+  top: 360rem;
   left: 46%;
   position: absolute;
 }
