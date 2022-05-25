@@ -328,27 +328,27 @@
   }
 
   .s-netflix {
-    top: 295.8rem;
-    left: 11.1%;
+    top: 295.5rem;
+    left: 13%;
   }
 
   .stremio {
     top: 290rem;
-    left: 30%;
+    left: 41%;
   }
 
   .s-stremio {
-    top: 295.8rem;
-    left: 30.6%;
+    top: 295.5rem;
+    left: 40.6%;
   }
 
   .topflix {
     top: 290rem;
-    left: 60%;
+    left: 80%;
   }
 
   .s-topflix {
-    top: 295.8rem;
-    left: 60.1%;
+    top: 295.5rem;
+    left: 80.1%;
   }
 }
