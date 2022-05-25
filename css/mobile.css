@@ -317,41 +317,38 @@
   }
 
   .camera {
-    width: 26rem;
+    width: 25.8rem;
     top: 272rem;
     left: 0;
   }
 
   .netflix {
-    top: 292rem;
-  }
-
-  .netflix:hover {
+    top: 290rem;
+    left: 10%;
   }
 
   .s-netflix {
-    top: 297.8rem;
-  }
-
-  .topflix {
-    top: 292rem;
-  }
-
-  .topflix:hover {
-  }
-
-  .s-topflix {
-    top: 297.8rem;
+    top: 295.8rem;
+    left: 11.1%;
   }
 
   .stremio {
-    top: 292rem;
-  }
-
-  .stremio:hover {
+    top: 290rem;
+    left: 30%;
   }
 
   .s-stremio {
-    top: 297.8rem;
+    top: 295.8rem;
+    left: 30.6%;
+  }
+
+  .topflix {
+    top: 290rem;
+    left: 60%;
+  }
+
+  .s-topflix {
+    top: 295.8rem;
+    left: 60.1%;
   }
 }
