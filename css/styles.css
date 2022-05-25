@@ -723,6 +723,11 @@ p {
   top: 291rem;
   left: 27.5%;
   position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.continue2:hover {
+  color: #fff;
 }
 
 .c-filme:hover {
