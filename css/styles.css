@@ -694,6 +694,13 @@ p {
   position: absolute;
 }
 
+.proximo {
+  font-size: 1.4rem;
+  top: 267rem;
+  left: 66%;
+  position: absolute;
+}
+
 .start {
   font-size: 1.4rem;
   top: 320rem;
