@@ -317,8 +317,41 @@
   }
 
   .camera {
-    width: 25rem;
+    width: 26rem;
     top: 272rem;
     left: 0;
+  }
+
+  .netflix {
+    top: 292rem;
+  }
+
+  .netflix:hover {
+  }
+
+  .s-netflix {
+    top: 297.8rem;
+  }
+
+  .topflix {
+    top: 292rem;
+  }
+
+  .topflix:hover {
+  }
+
+  .s-topflix {
+    top: 297.8rem;
+  }
+
+  .stremio {
+    top: 292rem;
+  }
+
+  .stremio:hover {
+  }
+
+  .s-stremio {
+    top: 297.8rem;
   }
 }

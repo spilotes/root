@@ -634,6 +634,66 @@ p {
   transform: scale(1.5);
 }
 
+.netflix {
+  top: 267rem;
+  left: 49%;
+  width: 4.5rem;
+  border-radius: 2.25rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.netflix:hover {
+  transform: scale(1.03);
+}
+
+.s-netflix {
+  top: 272rem;
+  left: 50.1%;
+  color: #fff;
+  position: absolute;
+}
+
+.topflix {
+  top: 274rem;
+  left: 49%;
+  width: 4.5rem;
+  border-radius: 2.25rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.topflix:hover {
+  transform: scale(1.03);
+}
+
+.s-topflix {
+  top: 279rem;
+  left: 50.1%;
+  color: #fff;
+  position: absolute;
+}
+
+.stremio {
+  top: 281rem;
+  left: 49%;
+  width: 4.5rem;
+  border-radius: 2.25rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.stremio:hover {
+  transform: scale(1.03);
+}
+
+.s-stremio {
+  top: 285.8rem;
+  left: 49.6%;
+  color: #fff;
+  position: absolute;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
