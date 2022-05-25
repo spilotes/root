@@ -573,6 +573,7 @@ p {
   top: 226rem;
   left: 17%;
   position: absolute;
+  transition: all 0.3s ease-in-out;
 }
 
 .continue:hover {
@@ -699,6 +700,7 @@ p {
   top: 267rem;
   left: 66%;
   position: absolute;
+  transition: all 0.3s ease-in-out;
 }
 
 .proximo:hover {
