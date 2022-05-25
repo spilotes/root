@@ -322,6 +322,11 @@
     left: 0;
   }
 
+  .camera:active {
+    top: 272rem;
+    transform: none;
+  }
+
   .netflix {
     top: 289rem;
     left: 15%;
@@ -344,11 +349,11 @@
 
   .topflix {
     top: 289rem;
-    left: 69.5%;
+    left: 68.5%;
   }
 
   .s-topflix {
     top: 294rem;
-    left: 72.6%;
+    left: 71.6%;
   }
 }
