@@ -356,4 +356,9 @@
     top: 294rem;
     left: 71.6%;
   }
+
+  .start {
+    bottom: 1rem;
+    right: 4%;
+  }
 }

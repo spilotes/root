@@ -694,6 +694,13 @@ p {
   position: absolute;
 }
 
+.start {
+  font-size: 1.4rem;
+  top: 320rem;
+  left: 46%;
+  position: absolute;
+}
+
 ::-webkit-scrollbar {
   width: 0.7rem;
 }
