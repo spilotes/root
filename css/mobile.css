@@ -359,6 +359,7 @@
 
   .start {
     top: 380rem;
-    left: 80%;
+    left: 72%;
+    font-size: 1.3;
   }
 }
