@@ -723,16 +723,6 @@ p {
   top: 291rem;
   left: 27.5%;
   position: absolute;
-  visibility: hidden;
-}
-
-.c-filme {
-  top: 270.5rem;
-  left: 64%;
-  width: 14rem;
-  position: absolute;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
 }
 
 .c-filme:hover {
@@ -744,7 +734,6 @@ p {
   left: 10%;
   width: 14rem;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -757,7 +746,6 @@ p {
   left: 30.2%;
   width: 14rem;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -770,7 +758,6 @@ p {
   left: 50.2%;
   width: 14rem;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -783,7 +770,6 @@ p {
   left: 70.2%;
   width: 14rem;
   position: absolute;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
