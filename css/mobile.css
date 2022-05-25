@@ -368,6 +368,36 @@
     width: 16rem;
   }
 
+  .continue2 {
+    font-size: 1.4rem;
+    top: 291rem;
+    left: 27.5%;
+  }
+
+  .serie1 {
+    top: 295rem;
+    left: 10%;
+    width: 14rem;
+  }
+
+  .serie2 {
+    top: 295rem;
+    left: 30.2%;
+    width: 14rem;
+  }
+
+  .serie3 {
+    top: 295rem;
+    left: 50.2%;
+    width: 14rem;
+  }
+
+  .serie4 {
+    top: 295rem;
+    left: 70.2%;
+    width: 14rem;
+  }
+
   .start {
     top: 366rem;
     left: 88%;

@@ -718,6 +718,79 @@ p {
   transform: scale(1.03);
 }
 
+.continue2 {
+  font-size: 1.4rem;
+  top: 291rem;
+  left: 27.5%;
+  position: absolute;
+  visibility: hidden;
+}
+
+.c-filme {
+  top: 270.5rem;
+  left: 64%;
+  width: 14rem;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.c-filme:hover {
+  transform: scale(1.03);
+}
+
+.serie1 {
+  top: 295rem;
+  left: 10%;
+  width: 14rem;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.serie1:hover {
+  transform: scale(1.03);
+}
+
+.serie2 {
+  top: 295rem;
+  left: 30.2%;
+  width: 14rem;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.serie2:hover {
+  transform: scale(1.03);
+}
+
+.serie3 {
+  top: 295rem;
+  left: 50.2%;
+  width: 14rem;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.serie3:hover {
+  transform: scale(1.03);
+}
+
+.serie4 {
+  top: 295rem;
+  left: 70.2%;
+  width: 14rem;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.serie4:hover {
+  transform: scale(1.03);
+}
+
 .start {
   font-size: 1.4rem;
   top: 320rem;
