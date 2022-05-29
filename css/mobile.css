@@ -423,38 +423,39 @@
   }
 
   .warner {
-    width: 5rem;
-    top: 400rem;
+    width: 6rem;
+    top: 402rem;
     left: 4%;
   }
 
   .amc {
-    width: 5rem;
-    top: 400rem;
-    left: 30%;
+    width: 6rem;
+    top: 404rem;
+    left: 35%;
   }
 
   .sony {
-    width: 5rem;
-    top: 400rem;
-    left: 65%;
+    width: 6rem;
+    top: 402rem;
+    left: 70%;
+    border-radius: 0.5rem;
   }
 
-  .tcn {
-    width: 5rem;
-    top: 405rem;
+  .tcp {
+    width: 6rem;
+    top: 407rem;
     left: 4%;
   }
 
   .tnt {
-    width: 5rem;
-    top: 405rem;
+    width: 6rem;
+    top: 407rem;
     left: 30%;
   }
 
   .cn {
-    width: 5rem;
-    top: 405rem;
+    width: 6rem;
+    top: 407rem;
     left: 65%;
   }
 
