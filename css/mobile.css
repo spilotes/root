@@ -422,6 +422,42 @@
     left: 19%;
   }
 
+  .warner {
+    width: 5rem;
+    top: 400rem;
+    left: 4%;
+  }
+
+  .amc {
+    width: 5rem;
+    top: 400rem;
+    left: 30%;
+  }
+
+  .sony {
+    width: 5rem;
+    top: 400rem;
+    left: 65%;
+  }
+
+  .tcn {
+    width: 5rem;
+    top: 405rem;
+    left: 4%;
+  }
+
+  .tnt {
+    width: 5rem;
+    top: 405rem;
+    left: 30%;
+  }
+
+  .cn {
+    width: 5rem;
+    top: 405rem;
+    left: 65%;
+  }
+
   .sete {
     height: 100vh;
   }
