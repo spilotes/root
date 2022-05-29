@@ -430,32 +430,32 @@
 
   .amc {
     width: 6rem;
-    top: 404rem;
-    left: 35%;
+    top: 403.8rem;
+    left: 37%;
   }
 
   .sony {
     width: 6rem;
     top: 402rem;
-    left: 70%;
-    border-radius: 0.5rem;
+    left: 71%;
+    border-radius: 0.6rem;
   }
 
   .tcp {
-    width: 6rem;
-    top: 407rem;
+    width: 7rem;
+    top: 411.8rem;
     left: 4%;
   }
 
   .tnt {
     width: 6rem;
-    top: 407rem;
-    left: 30%;
+    top: 410rem;
+    left: 37%;
   }
 
   .cn {
-    width: 6rem;
-    top: 407rem;
+    width: 10rem;
+    top: 410rem;
     left: 65%;
   }
 
