@@ -786,6 +786,23 @@ p {
   height: 100vh;
 }
 
+.channels {
+  top: 325;
+  left: 39%;
+  position: absolute;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.channels:hover {
+  color: #fff;
+}
+
+.sete {
+  height: 100vh;
+}
+
 .start {
   font-size: 1.4rem;
   top: 390rem;
