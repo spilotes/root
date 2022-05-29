@@ -411,13 +411,14 @@
   }
 
   .tv {
+    width: 24rem;
     top: 376rem;
     left: 0;
   }
 
   .multicanais {
-    top: 389rem;
-    left: 19%;
+    top: 395rem;
+    left: 21%;
   }
 
   .sete {
