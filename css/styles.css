@@ -799,9 +799,16 @@ p {
   color: #fff;
 }
 
+.tv {
+  width: 22rem;
+  top: 330rem;
+  left: 0;
+  position: absolute;
+}
+
 .multicanais {
   width: 15rem;
-  top: 330rem;
+  top: 343rem;
   left: 15%;
   position: absolute;
   transition: all 0.3s ease-in-out;

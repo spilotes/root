@@ -410,9 +410,14 @@
     left: 30%;
   }
 
-  .multicanais {
+  .tv {
     top: 376rem;
-    left: 15%;
+    left: 0;
+  }
+
+  .multicanais {
+    top: 389rem;
+    left: 19%;
   }
 
   .sete {
