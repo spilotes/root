@@ -818,6 +818,78 @@ p {
   transform: scale(1.03);
 }
 
+.warner {
+  width: 10rem;
+  top: 347rem;
+  left: 4%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.warner:hover {
+  transform: scale(1.03);
+}
+
+.amc {
+  width: 10rem;
+  top: 347rem;
+  left: 20%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.amc:hover {
+  transform: scale(1.03);
+}
+
+.sony {
+  width: 10rem;
+  top: 347rem;
+  left: 60%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.sony:hover {
+  transform: scale(1.03);
+}
+
+.tcp {
+  width: 10rem;
+  top: 352rem;
+  left: 4%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.tcp:hover {
+  transform: scale(1.03);
+}
+
+.tnt {
+  width: 10rem;
+  top: 352rem;
+  left: 20%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.warner:hover {
+  transform: scale(1.03);
+}
+
+.cn {
+  width: 10rem;
+  top: 352rem;
+  left: 60%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.cn:hover {
+  transform: scale(1.03);
+}
+
 .sete {
   height: 100vh;
 }
