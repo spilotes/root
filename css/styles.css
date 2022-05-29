@@ -799,6 +799,18 @@ p {
   color: #fff;
 }
 
+.multicanais {
+  width: 15rem;
+  top: 330rem;
+  left: 15%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.multicanais:hover {
+  transform: scale(1.03);
+}
+
 .sete {
   height: 100vh;
 }

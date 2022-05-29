@@ -406,8 +406,13 @@
   }
 
   .channels {
-    top: 372.5rem;
+    top: 371.5rem;
     left: 30%;
+  }
+
+  .multicanais {
+    top: 376rem;
+    left: 15%;
   }
 
   .sete {
