@@ -425,7 +425,7 @@
   .warner {
     width: 6rem;
     top: 402rem;
-    left: 4%;
+    left: 8%;
   }
 
   .amc {
@@ -435,14 +435,14 @@
   }
 
   .sony {
-    width: 5.5rem;
+    width: 5rem;
     top: 402rem;
     left: 70%;
     border-radius: 0.6rem;
   }
 
   .tcp {
-    width: 8rem;
+    width: 9rem;
     top: 411.8rem;
     left: 4%;
   }
