@@ -891,6 +891,18 @@ p {
   transform: scale(1.03);
 }
 
+.sports {
+  font-size: 1.4rem;
+  top: 360rem;
+  left: 27.5%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.sports:hover {
+  color: #fff;
+}
+
 .sete {
   height: 100vh;
 }
