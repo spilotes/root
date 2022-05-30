@@ -903,6 +903,18 @@ p {
   color: #fff;
 }
 
+.gremio {
+  width: 15rem;
+  top: 354rem;
+  left: 20%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.gremio:hover {
+  transform: scale(1.03);
+}
+
 .sete {
   height: 100vh;
 }
