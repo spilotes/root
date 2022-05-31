@@ -423,9 +423,9 @@
   }
 
   .megacanais {
-    width: 16rem;
-    top: 400rem;
-    left: 19%;
+    width: 14rem;
+    top: 399rem;
+    left: 20%;
   }
 
   .warner {
@@ -501,17 +501,20 @@
   }
 
   .espn {
-    top: 440rem;
+    width: 8rem;
+    top: 444rem;
     left: 4%;
   }
 
   .foxsports {
-    top: 440rem;
+    width: 8rem;
+    top: 444rem;
     left: 30%;
   }
 
   .sportv {
-    top: 440rem;
+    width: 8rem;
+    top: 444rem;
     left: 60%;
   }
 
