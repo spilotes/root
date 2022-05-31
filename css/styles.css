@@ -818,6 +818,18 @@ p {
   transform: scale(1.03);
 }
 
+.megacanais {
+  width: 15rem;
+  top: 346rem;
+  left: 15%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.megacanais:hover {
+  transform: scale(1.03);
+}
+
 .warner {
   width: 10rem;
   top: 347rem;
@@ -961,6 +973,43 @@ p {
 }
 
 .st-pauli:hover {
+  transform: scale(1.03);
+}
+
+.espn {
+  width: 10rem;
+  top: 367rem;
+  left: 4%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.espn:hover {
+  transform: scale(1.03);
+}
+
+.foxsports {
+  width: 10rem;
+  top: 367rem;
+  left: 30%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.foxsports:hover {
+  transform: scale(1.03);
+}
+
+.sportv {
+  width: 10rem;
+  top: 367rem;
+  left: 60%;
+  border-radius: 0.3rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.sportv:hover {
   transform: scale(1.03);
 }
 

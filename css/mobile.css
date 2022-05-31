@@ -422,6 +422,12 @@
     left: 19%;
   }
 
+  .megacanais {
+    width: 16rem;
+    top: 400rem;
+    left: 19%;
+  }
+
   .warner {
     width: 6rem;
     top: 402rem;
@@ -479,7 +485,7 @@
   .liverpool {
     width: 5rem;
     top: 434.5rem;
-    left: 27%;
+    left: 26%;
   }
 
   .penarol {
@@ -492,6 +498,21 @@
     width: 6rem;
     top: 435rem;
     left: 73%;
+  }
+
+  .espn {
+    top: 440rem;
+    left: 4%;
+  }
+
+  .foxsports {
+    top: 440rem;
+    left: 30%;
+  }
+
+  .sportv {
+    top: 440rem;
+    left: 60%;
   }
 
   .sete {
