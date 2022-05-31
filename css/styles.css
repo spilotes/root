@@ -915,6 +915,54 @@ p {
   transform: scale(1.03);
 }
 
+.milan {
+  width: 12rem;
+  top: 364rem;
+  left: 20%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.milan:hover {
+  transform: scale(1.03);
+}
+
+.liverpool {
+  width: 12rem;
+  top: 364rem;
+  left: 40%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.liverpool:hover {
+  transform: scale(1.03);
+}
+
+.penarol {
+  width: 12rem;
+  top: 364rem;
+  left: 60%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.penarol:hover {
+  transform: scale(1.03);
+}
+
+.st-pauli {
+  width: 12rem;
+  top: 364rem;
+  left: 70%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.st-pauli:hover {
+  transform: scale(1.03);
+}
+
 .sete {
   height: 100vh;
 }
