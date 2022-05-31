@@ -915,6 +915,18 @@ p {
   color: #fff;
 }
 
+.libertadores {
+  width: 10rem;
+  top: 354rem;
+  left: 15%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.libertadores:hover {
+  transform: scale(1.03);
+}
+
 .gremio {
   width: 15rem;
   top: 354rem;
@@ -924,6 +936,18 @@ p {
 }
 
 .gremio:hover {
+  transform: scale(1.03);
+}
+
+.uefa {
+  width: 10rem;
+  top: 354rem;
+  left: 60%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.uefa:hover {
   transform: scale(1.03);
 }
 

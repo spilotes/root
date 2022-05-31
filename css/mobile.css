@@ -471,9 +471,21 @@
     left: 40%;
   }
 
+  .libertadores {
+    width: 6rem;
+    top: 424.5rem;
+    left: 10%;
+  }
+
   .gremio {
     top: 424.5rem;
     left: 21%;
+  }
+
+  .uefa {
+    width: 6rem;
+    top: 424.5rem;
+    left: 60%;
   }
 
   .milan {
