@@ -903,7 +903,7 @@ p {
   transform: scale(1.03);
 }
 
-.sports {
+.football {
   font-size: 1.4rem;
   top: 360rem;
   left: 27.5%;
@@ -911,7 +911,7 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-.sports:hover {
+.football:hover {
   color: #fff;
 }
 
