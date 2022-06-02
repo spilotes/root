@@ -402,7 +402,7 @@
   }
 
   .seis {
-    height: 165vh;
+    height: 120vh;
   }
 
   .channels {
@@ -483,13 +483,17 @@
     left: 66%;
   }
 
+  .sete {
+    height: 100vh;
+  }
+
   .football {
     top: 428.5rem;
-    left: 32%;
+    left: 33%;
   }
 
   .ronaldo {
-    width: 24rem;
+    width: 26rem;
     top: 432rem;
     left: 0;
   }
@@ -535,7 +539,7 @@
     left: 73%;
   }
 
-  .sete {
+  .oito {
     height: 100vh;
   }
 
