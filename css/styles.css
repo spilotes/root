@@ -953,6 +953,13 @@ p {
   color: #fff;
 }
 
+.ronaldo {
+  width: 20rem;
+  top: 363rem;
+  left: 0;
+  position: absolute;
+}
+
 .libertadores {
   width: 10rem;
   top: 354rem;

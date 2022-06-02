@@ -479,53 +479,58 @@
 
   .sportv {
     width: 8rem;
-    top: 422.5rem;
+    top: 421.5rem;
     left: 66%;
   }
 
   .football {
-    top: 425.5rem;
-    left: 38%;
+    top: 428.5rem;
+    left: 35%;
+  }
+
+  .ronaldo {
+    top: 432rem;
+    left: 0;
   }
 
   .libertadores {
     width: 6rem;
-    top: 431.5rem;
+    top: 441.5rem;
     left: 5%;
   }
 
   .gremio {
-    top: 429.5rem;
+    top: 439.5rem;
     left: 21%;
   }
 
   .uefa {
     width: 6rem;
-    top: 431rem;
+    top: 441rem;
     left: 72%;
   }
 
   .milan {
     width: 4rem;
-    top: 440rem;
+    top: 450rem;
     left: 4%;
   }
 
   .liverpool {
     width: 5rem;
-    top: 441.5rem;
+    top: 451.5rem;
     left: 26%;
   }
 
   .penarol {
     width: 14rem;
-    top: 441rem;
+    top: 451rem;
     left: 33%;
   }
 
   .st-pauli {
     width: 6rem;
-    top: 442rem;
+    top: 452rem;
     left: 73%;
   }
 
