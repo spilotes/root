@@ -903,6 +903,44 @@ p {
   transform: scale(1.03);
 }
 
+.espn {
+  width: 10rem;
+  top: 367rem;
+  left: 4%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.espn:hover {
+  transform: scale(1.03);
+}
+
+.foxsports {
+  width: 10rem;
+  top: 367rem;
+  left: 30%;
+  border-radius: 55%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.foxsports:hover {
+  transform: scale(1.03);
+}
+
+.sportv {
+  width: 10rem;
+  top: 367rem;
+  left: 60%;
+  border-radius: 0.3rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.sportv:hover {
+  transform: scale(1.03);
+}
+
 .football {
   font-size: 1.4rem;
   top: 360rem;
@@ -997,44 +1035,6 @@ p {
 }
 
 .st-pauli:hover {
-  transform: scale(1.03);
-}
-
-.espn {
-  width: 10rem;
-  top: 367rem;
-  left: 4%;
-  position: absolute;
-  transition: all 0.3s ease-in-out;
-}
-
-.espn:hover {
-  transform: scale(1.03);
-}
-
-.foxsports {
-  width: 10rem;
-  top: 367rem;
-  left: 30%;
-  border-radius: 55%;
-  position: absolute;
-  transition: all 0.3s ease-in-out;
-}
-
-.foxsports:hover {
-  transform: scale(1.03);
-}
-
-.sportv {
-  width: 10rem;
-  top: 367rem;
-  left: 60%;
-  border-radius: 0.3rem;
-  position: absolute;
-  transition: all 0.3s ease-in-out;
-}
-
-.sportv:hover {
   transform: scale(1.03);
 }
 

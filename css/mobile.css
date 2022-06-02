@@ -465,6 +465,24 @@
     left: 68%;
   }
 
+  .espn {
+    width: 7.7rem;
+    top: 420.7rem;
+    left: 3%;
+  }
+
+  .foxsports {
+    width: 7.5rem;
+    top: 420.5rem;
+    left: 35%;
+  }
+
+  .sportv {
+    width: 8rem;
+    top: 420.5rem;
+    left: 66%;
+  }
+
   .football {
     font-size: 1.4rem;
     top: 420.5rem;
@@ -510,24 +528,6 @@
     width: 6rem;
     top: 437rem;
     left: 73%;
-  }
-
-  .espn {
-    width: 7.7rem;
-    top: 447.2rem;
-    left: 3%;
-  }
-
-  .foxsports {
-    width: 7.5rem;
-    top: 446rem;
-    left: 35%;
-  }
-
-  .sportv {
-    width: 8rem;
-    top: 447.5rem;
-    left: 66%;
   }
 
   .sete {
