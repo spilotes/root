@@ -137,22 +137,24 @@ input:focus {
   transform: translateX(-21.8rem);
 }
 
-.menu-container .correio {
+.menu-container .select {
   font-size: 3rem;
-  margin-top: -1.6rem;
-  margin-left: 2.75rem;
+  margin-top: -1rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
 }
 
-.menu-container .a {
+.menu-container span {
   font-size: 2rem;
   display: block;
+  cursor: pointer;
   padding: 0.6rem 4rem;
   transition: all 300ms ease-in-out;
 }
 
-.menu-container .a:hover {
+.menu-container span:hover {
   background-color: #00131a;
-  transform: scale(1.05);
+  font-size: 2.1rem;
 }
 
 .menu-container label {
