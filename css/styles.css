@@ -27,9 +27,9 @@
 /* Logo */
 
 .cabecalho .logo {
-  width: 9.3rem;
+  width: 8.5rem;
   top: 1em;
-  left: 10%;
+  left: 9rem;
   position: absolute;
 }
 
@@ -65,16 +65,102 @@
   position: absolute;
 }
 
-.lupa {
-  width: 1.7rem;
-  top: 1rem;
-  left: 86%;
+#searchform {
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  top: 0.9rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  border: none;
+}
+#s {
+  width: 17rem;
+  height: 2rem;
+  background: #fff;
+  border-radius: 0 1.5rem 1.5rem 0;
+  border: none;
+  font-size: 0.9rem;
 }
 
-.lupa:hover {
-  transform: scale(1.1);
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.btn-google {
+  position: absolute;
+  left: -2.5rem;
+  top: 0;
+  background: #fff;
+  border: 1px solid #fff;
+  width: 2.5rem;
+  height: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.menu-container a {
+  text-decoration: none;
+}
+
+.menu-container ul {
+  list-style: none;
+}
+
+.menu-container .menu {
+  width: 2.5rem;
+  position: absolute;
+  top: 1.2rem;
+  left: 73rem;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.menu-container input[type="checkbox"] {
+  display: none;
+}
+
+.menu-container nav {
+  position: absolute;
+  top: 3.7rem;
+  right: -21.8rem;
+  background-color: #000000;
+  width: 10rem;
+  height: 37.55rem;
+  transition: all 500ms ease-in-out;
+}
+
+.menu-container input[type="checkbox"]:checked ~ nav {
+  transform: translateX(-21.8rem);
+}
+
+.menu-container .correio {
+  font-size: 3rem;
+  margin-top: -1.6rem;
+  margin-left: 2.75rem;
+}
+
+.menu-container .a {
+  font-size: 2rem;
+  display: block;
+  padding: 0.6rem 4rem;
+  transition: all 300ms ease-in-out;
+}
+
+.menu-container .a:hover {
+  background-color: #00131a;
+  transform: scale(1.05);
+}
+
+.menu-container label {
+  padding: 0.9rem;
+  position: absolute;
+  top: 0.03rem;
+  left: 0;
+  z-index: 1;
 }
 
 body {
@@ -97,10 +183,10 @@ body {
 }
 
 #dia {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 600;
   top: 5rem;
-  left: 10%;
+  left: 9rem;
   position: absolute;
   visibility: hidden;
 }
@@ -108,19 +194,10 @@ body {
 .saudacao {
   font-size: 1.3rem;
   color: #fff;
-  top: 8rem;
-  left: 10.4%;
+  top: 7.5rem;
+  left: 9.2rem;
   position: absolute;
   visibility: hidden;
-}
-
-.weather {
-  position: absolute;
-  top: 5rem;
-  left: 87%;
-  color: #000000;
-  text-align: left;
-  text-align: right;
 }
 
 q {
@@ -145,11 +222,13 @@ p {
   width: 17rem;
   top: 13rem;
   left: 60%;
-  transition: all 0.3s ease-in-out;
+
+  transition: all 0.5s ease-in-out;
 }
 
 .guts:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .dois {
@@ -158,12 +237,14 @@ p {
 }
 
 .musica {
-  left: 44%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   color: #000000;
   font-size: 2rem;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .musica:hover {
@@ -172,19 +253,25 @@ p {
 
 .ozzy {
   width: 33rem;
-  left: 30%;
   top: 47rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+
   position: absolute;
+  transition: all 0.5s ease-in-out;
 }
 
 .top3 {
   top: 73rem;
-  left: 46.5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   color: #000000;
   font-size: 1.6rem;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .top3:hover {
@@ -192,48 +279,53 @@ p {
 }
 
 .ana {
-  top: 41.2rem;
-  left: 4%;
-  width: 5rem;
+  top: 39.5rem;
+  left: 31rem;
+  width: 7rem;
   position: relative;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .ana:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .ozzy1 {
-  top: 26rem;
-  left: 43%;
-  width: 6rem;
+  top: 29.5rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 7rem;
   position: relative;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .ozzy1:hover {
-  transform: scale(1.03);
+  width: 7.1rem;
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .mon {
-  top: 16.2rem;
-  right: 13%;
-  width: 5rem;
-  position: relative;
-  transition: all 0.3s ease-in-out;
+  top: 80.5rem;
+  right: 30.5rem;
+  width: 7rem;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
 }
 
 .mon:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .a_mais {
-  top: 95rem;
+  top: 90rem;
   left: 28%;
   color: #000000;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .a_mais:hover {
@@ -241,21 +333,27 @@ p {
 }
 
 .mais_ouvida {
-  top: 98rem;
+  top: 93rem;
   left: 28%;
   width: 7rem;
   position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.mais_ouvida:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .s-artista1 {
-  top: 105.6rem;
+  top: 100.6rem;
   left: 28%;
   color: #fff;
   position: absolute;
 }
 
 .s-musica {
-  top: 106.7rem;
+  top: 101.7rem;
   left: 28%;
   color: #fff;
   position: absolute;
@@ -265,30 +363,30 @@ p {
   width: 4.5rem;
   border-radius: 2.25rem;
   top: -5rem;
-  left: -25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   position: absolute;
-}
-
-.spotify:hover {
-  transform: scale(1.03);
 }
 
 .s-spotify {
   color: #fff;
-  top: 102rem;
-  left: 48%;
+  top: 99rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   position: absolute;
 }
 
 .h-headbanger {
-  top: 95rem;
-  left: 62.7%;
+  top: 90rem;
+  left: 53.5rem;
   color: #000000;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .h-headbanger:hover {
@@ -296,55 +394,58 @@ p {
 }
 
 .img_headbanger {
-  top: 98rem;
-  left: 62%;
+  top: 93rem;
+  left: 53rem;
   width: 8rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .img_headbanger:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .s-playlist {
-  top: 106.9rem;
-  left: 65%;
+  top: 101.9rem;
+  left: 55.5rem;
   color: #fff;
   position: absolute;
 }
 
 .rollingstone {
-  top: 112rem;
+  top: 107rem;
   left: 28%;
   width: 15rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .rollingstone:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .tmdqa {
-  top: 118.5rem;
+  top: 113.5rem;
   left: 28%;
   width: 12rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .tmdqa:hover {
   transform: scale(1.02);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .ultimo_disco {
-  top: 110rem;
-  left: 60.7%;
+  top: 105rem;
+  left: 52rem;
   color: #000000;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .ultimo_disco:hover {
@@ -352,27 +453,28 @@ p {
 }
 
 .last_disc {
-  top: 113.8rem;
-  left: 59%;
+  top: 108rem;
+  left: 50.5rem;
   width: 10.5rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .last_disc:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
 .s-artista {
-  top: 125rem;
-  left: 59%;
+  top: 119rem;
+  left: 50.5rem;
   color: #fff;
   position: absolute;
 }
 
 .s-disc_name {
-  top: 126rem;
-  left: 59%;
+  top: 120rem;
+  left: 50.5rem;
   color: #fff;
   position: absolute;
 }
@@ -384,12 +486,14 @@ p {
 
 .manga {
   top: 135rem;
-  left: 43.5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   color: #000000;
   font-size: 2rem;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .manga:hover {
@@ -399,7 +503,9 @@ p {
 .banner {
   width: 60rem;
   top: 142rem;
-  left: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   position: absolute;
 }
 
@@ -409,11 +515,12 @@ p {
   width: 4.5rem;
   border-radius: 2.25rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .mangalivre:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .s-mangalivre {
@@ -429,11 +536,12 @@ p {
   width: 4.5rem;
   border-radius: 2.25rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .yes_mangas:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .s-yes_mangas {
@@ -455,11 +563,12 @@ p {
   top: 190rem;
   left: 34%;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .berserk:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .claymore {
@@ -467,11 +576,12 @@ p {
   top: 191.5rem;
   left: 52%;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .claymore:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .snk {
@@ -479,11 +589,12 @@ p {
   top: 201rem;
   left: 34%;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .snk:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .kny {
@@ -491,11 +602,12 @@ p {
   top: 196.7rem;
   left: 52%;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .kny:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .cdz {
@@ -503,11 +615,12 @@ p {
   top: 209rem;
   left: 34%;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .cdz:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .rurouni_kenshin {
@@ -515,11 +628,12 @@ p {
   top: 209rem;
   left: 52%;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .rurouni_kenshin:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .quatro {
@@ -528,12 +642,14 @@ p {
 }
 
 .anime {
-  left: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   color: #000000;
   font-size: 2rem;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .anime:hover {
@@ -546,11 +662,12 @@ p {
   width: 4.5rem;
   border-radius: 2.25rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .superanime:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .s-superanimes {
@@ -572,7 +689,7 @@ p {
   top: 226rem;
   left: 17%;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .continue:hover {
@@ -584,11 +701,12 @@ p {
   left: 11%;
   width: 14rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .watching1:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .watching2 {
@@ -596,11 +714,12 @@ p {
   left: 29%;
   width: 14rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .watching2:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .cinco {
@@ -609,12 +728,15 @@ p {
 }
 
 .movies {
-  left: 39%;
+  top: 264rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   color: #000000;
   font-size: 2rem;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .movies:hover {
@@ -622,73 +744,77 @@ p {
 }
 
 .camera {
-  top: 268rem;
+  top: 271rem;
   left: 10%;
   position: absolute;
   transition: all 0.3s ease-in-out;
 }
 
 .camera:active {
-  top: 270rem;
+  top: 273rem;
+  left: 20%;
   z-index: 999;
   transform: scale(1.5);
 }
 
 .netflix {
-  top: 267rem;
+  top: 270rem;
   left: 49%;
   width: 4.5rem;
   border-radius: 2.25rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .netflix:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .s-netflix {
-  top: 272rem;
+  top: 275rem;
   left: 50.1%;
   color: #fff;
   position: absolute;
 }
 
 .topflix {
-  top: 274rem;
+  top: 277rem;
   left: 49%;
   width: 4.5rem;
   border-radius: 2.25rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .topflix:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .s-topflix {
-  top: 279rem;
+  top: 282rem;
   left: 50.1%;
   color: #fff;
   position: absolute;
 }
 
 .stremio {
-  top: 281rem;
+  top: 284rem;
   left: 49%;
   width: 4.5rem;
   border-radius: 2.25rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .stremio:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .s-stremio {
-  top: 285.8rem;
+  top: 288.8rem;
   left: 49.6%;
   color: #fff;
   position: absolute;
@@ -696,10 +822,10 @@ p {
 
 .proximo {
   font-size: 1.4rem;
-  top: 267rem;
+  top: 270rem;
   left: 66%;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .proximo:hover {
@@ -707,79 +833,83 @@ p {
 }
 
 .c-filme {
-  top: 270.5rem;
-  left: 64%;
+  top: 273.5rem;
+  right: 15.7rem;
   width: 14rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .c-filme:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .continue2 {
   font-size: 1.4rem;
-  top: 291rem;
-  left: 27.5%;
+  top: 294rem;
+  left: 17rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .continue2:hover {
   color: #fff;
 }
 
-.c-filme:hover {
-  transform: scale(1.03);
-}
-
 .serie1 {
-  top: 295rem;
-  left: 10%;
+  top: 298rem;
+  left: 10rem;
   width: 14rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .serie1:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .serie2 {
-  top: 295rem;
-  left: 30.2%;
+  top: 298rem;
+  left: 26.5rem;
   width: 14rem;
+  height: 21rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .serie2:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .serie3 {
-  top: 295rem;
-  left: 50.2%;
+  top: 298rem;
+  left: 43rem;
   width: 14rem;
+  height: 21rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .serie3:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .serie4 {
-  top: 295rem;
-  left: 70.2%;
+  top: 298rem;
+  left: 59.5rem;
   width: 14rem;
+  height: 21rem;
   position: absolute;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .serie4:hover {
   transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .seis {
@@ -787,12 +917,14 @@ p {
 }
 
 .channels {
-  top: 325;
-  left: 39%;
+  top: 326rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   position: absolute;
   font-size: 2rem;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .channels:hover {
@@ -800,10 +932,18 @@ p {
 }
 
 .tv {
-  width: 22rem;
-  top: 330rem;
-  left: 0;
+  width: 72rem;
+  height: 31.5rem;
+  top: 332rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   position: absolute;
+  transition: all 1s ease-in-out;
+}
+
+.tv:hover {
+  border: 255px solid black;
 }
 
 .multicanais {
@@ -1051,13 +1191,14 @@ p {
 
 .start {
   font-size: 1.4rem;
-  top: 390rem;
-  left: 46%;
+  top: 402rem;
+  left: 82rem;
   position: absolute;
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar {
-  width: 0.7rem;
+  width: 0.5rem;
 }
 
 ::-webkit-scrollbar-track {

@@ -21,17 +21,109 @@
           /></a>
         </div>
 
-        <div>
-          <p onclick="music()" class="i1">🎶</p>
-          <p onclick="manga()" class="i2">📓</p>
-          <p onclick="anime()" class="i3">🗾</p>
-          <p onclick="movie()" class="i4">📽️</p>
-        </div>
+        <div class="google">
+          <form
+          role="search"
+          method="get"
+          id="searchform"
+          class="searchform"
+          action="http://www.google.co.uk/search?hl=en-GB&source=hp&q="
+        >
+          <div id="gform">
+            <label class="screen-reader-text" for="s"></label>
+            <input
+              type="text"
+              value=""
+              name="q"
+              id="s"
+              placeholder="Pesquise no Google ou escreva um URL"
+            />
+            <input
+              type="image"
+              src="./img/lupa.png"
+              alt="Submit"
+              style="width: 40px"
+              class="btn-google fa-input"
+              value="&#xf002;"
+            />
+        </form>
+      </div>
 
-        <div>
-          <a href="https://www.google.com/" target="_blank"
-            ><img class="lupa" src="./img/lupa.png" alt="search"
-          /></a>
+        <div class="menu-container">
+          <input type="checkbox" id="check" />
+          <label for="check">
+            <img class="menu" src="./img/menu.png" />
+          </label>
+          <nav>
+            <h3 class="correio">📬</h3>
+            <ul>
+              <li>
+                <a class="a" href="https://wa.me/5551983385777?" target="_blank"
+                  ><i class="fab fa-brands fa-whatsapp-square whatsapp"></i
+                ></a>
+              </li>
+              <li>
+                <a class="a" href="https://github.com/spilotes" target="_blank"
+                  ><i class="fab fa-brands fa-github-square github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="a"
+                  href="https://www.linkedin.com/in/ricardowebdev/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a class="a" href="https://t.me/ricardospilotes" target="_blank"
+                  ><i class="fab fa-brands fa-telegram telegram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="a"
+                  href="https://www.instagram.com/bakunin.provo/"
+                  target="_blank"
+                  ><i class="fab fa-brands fa-instagram-square instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a class="a" href="https://codepen.io/Spilotes" target="_blank"
+                  ><i class="fab fa-brands fa-codepen codepen"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="a"
+                  href="https://www.facebook.com/ricardo.spilotes/"
+                  target="_blank"
+                  ><i class="fab fa-brands fa-facebook-square facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="a"
+                  href="https://www.youtube.com/channel/UCh7zmANYmClfM3hKHyDdiDA"
+                  target="_blank"
+                  ><i class="fab fa-brands fa-youtube youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a class="a" href="https://www.twitch.tv/spilotes1" target="_blank"
+                  ><i class="fab fa-brands fa-twitch twitch"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="a"
+                  href="https://open.spotify.com/user/k8xqrgqgsmmezmm05786aoxdo?si=i9jhIoIQR_yaaq1S7iRX1g&utm_source=copy-link"
+                  target="_blank"
+                  ><i class="fab fa-brands fa-spotify spotify"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
 
       </header>
@@ -58,12 +150,6 @@
           </div>
         
         <section class="um">
-          <div class="weather">
-            <div class="location"></div>
-            <div class="summary">----</div>
-            <div class="temp">-°C</div>
-            <div class="icon">---</div>
-          </div>
 
           <div>
             <q class="cita">
@@ -80,8 +166,6 @@
           </div>
           
         </section>
-
-        <hr>
 
         <section class="dois">
           <div>
@@ -118,10 +202,10 @@
             <h4 class="a_mais">☄️som de 2022</h4>
             <figure>
               <a href="https://open.spotify.com/track/6S04qCT9xjWPtgBK4UoPEQ?si=77608f9d5cf84f69" target="_blank">
-                <img class="mais_ouvida" src="./img/db.jpg" alt="01 - It's no game(Pt.1)"></a>
+                <img class="mais_ouvida" src="./img/db.jpg" alt="01 - It's no game(Pt.1)">
             </figure>
             <span class="s-artista1">David Bowie</span>
-            <span class="s-musica">01 - It's no game(Pt.1)</span>
+            <span class="s-musica">01 - It's no game(Pt.1)</span></a>
           </div>
 
           <div>
@@ -139,9 +223,9 @@
             <h4 class="h-headbanger">headbanger⚡</h4>
             <figure>
               <a href="https://open.spotify.com/playlist/1HTiuniFUoWFDuvHX3tfM0?si=24b8a7efff51450e" target="_blank">
-                <img class="img_headbanger" src="./img/headbanger.jpg" alt="Headbanger"></a>
+                <img class="img_headbanger" src="./img/headbanger.jpg" alt="Headbanger">
             </figure>
-            <span class="s-playlist">Playlist</span>
+            <span class="s-playlist">Playlist</span></a>
           </div>
 
           <div>
@@ -176,8 +260,6 @@
           </div>
 
       </section>
-
-<hr>
 
       <section class="tres">
         
@@ -243,8 +325,6 @@
 
         </section>
 
-        <hr>
-
         <section class="quatro">
 
           <div>
@@ -279,8 +359,6 @@
             </figure>
 
         </section>
-
-      <hr>
 
       <section class="cinco">
         <div>
@@ -371,8 +449,6 @@
         </div>
 
       </section>
-
-      <hr>
 
       <section class="seis">
         <div>
