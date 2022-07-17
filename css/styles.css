@@ -948,6 +948,19 @@ p {
   border: 8.5rem solid black;
 }
 
+.youtube {
+  width: 13rem;
+  top: 339rem;
+  left: 9rem;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.youtube:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
 .multicanais {
   width: 20rem;
   top: 339.4rem;
@@ -970,6 +983,19 @@ p {
 }
 
 .megacanais:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+.twich {
+  width: 7rem;
+  top: 337rem;
+  right: 9rem;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.twich:hover {
   transform: scale(1.03);
   filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
@@ -1099,6 +1125,10 @@ p {
   filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
+.sete {
+  height: 125vh;
+}
+
 .football {
   font-size: 2rem;
   top: 375rem;
@@ -1120,6 +1150,7 @@ p {
   margin-right: -50%;
   transform: translate(-50%);
   position: absolute;
+  border: 0.45rem solid #000000;
 }
 
 .libertadores {
@@ -1214,13 +1245,106 @@ p {
   filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
-.sete {
-  height: 120vh;
+.ole {
+  position: absolute;
+  left: 9rem;
+  top: 413rem;
+  width: 7rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.ole:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+.placar {
+  position: absolute;
+  left: 18rem;
+  top: 413rem;
+  width: 7rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.placar:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+.ff {
+  position: absolute;
+  left: 27rem;
+  top: 413.2rem;
+  width: 10rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.ff:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+.fft {
+  position: absolute;
+  left: 40rem;
+  top: 413.2rem;
+  width: 9.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.fft:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+.as {
+  position: absolute;
+  left: 51.4rem;
+  top: 413.1rem;
+  width: 9.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.as:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+.gazetta {
+  position: absolute;
+  right: 9rem;
+  top: 413.6rem;
+  width: 13rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.gazetta:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+.oito {
+  width: 100vw;
+  height: 100vh;
+}
+
+.news {
+  font-size: 2rem;
+  top: 426rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.news:hover {
+  color: #fff;
 }
 
 .start {
   font-size: 1.8rem;
-  top: 417.4rem;
+  top: 460.5rem;
   left: 82rem;
   position: absolute;
   cursor: pointer;

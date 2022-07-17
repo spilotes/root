@@ -248,6 +248,12 @@ ScrollReveal().reveal(".serie4", {
   duration: 2000,
 });
 
+ScrollReveal().reveal(".youtube", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
 ScrollReveal().reveal(".multicanais", {
   origin: "left",
   distance: "7rem",
@@ -255,6 +261,12 @@ ScrollReveal().reveal(".multicanais", {
 });
 
 ScrollReveal().reveal(".megacanais", {
+  origin: "right",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".twich", {
   origin: "right",
   distance: "7rem",
   duration: 2000,
@@ -325,7 +337,7 @@ ScrollReveal().reveal(".uefa", {
 });
 
 ScrollReveal().reveal(".gremio", {
-  duration: 2000,
+  duration: 3000,
 });
 
 ScrollReveal().reveal(".milan", {
@@ -350,4 +362,28 @@ ScrollReveal().reveal(".st-pauli", {
   origin: "right",
   distance: "7rem",
   duration: 2000,
+});
+
+ScrollReveal().reveal(".ole", {
+  duration: 3000,
+});
+
+ScrollReveal().reveal(".placar", {
+  duration: 3000,
+});
+
+ScrollReveal().reveal(".ff", {
+  duration: 3000,
+});
+
+ScrollReveal().reveal(".fft", {
+  duration: 3000,
+});
+
+ScrollReveal().reveal(".as", {
+  duration: 3000,
+});
+
+ScrollReveal().reveal(".gazetta", {
+  duration: 3000,
 });

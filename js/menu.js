@@ -45,3 +45,11 @@ function football() {
     behavior: "smooth",
   });
 }
+
+function news() {
+  window.scrollTo({
+    top: 6750,
+    left: 0,
+    behavior: "smooth",
+  });
+}
