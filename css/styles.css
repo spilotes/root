@@ -196,7 +196,7 @@ body {
 .saudacao {
   font-size: 1.3rem;
   color: #fff;
-  top: 7.5rem;
+  top: 7.8rem;
   left: 9.2rem;
   position: absolute;
   visibility: hidden;
@@ -221,7 +221,7 @@ p {
 
 .puck {
   position: absolute;
-  width: 6rem;
+  width: 5.9rem;
   top: 7rem;
   right: 15rem;
 }
