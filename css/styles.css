@@ -219,6 +219,13 @@ p {
   position: absolute;
 }
 
+.puck {
+  position: absolute;
+  width: 6rem;
+  top: 7rem;
+  right: 15rem;
+}
+
 .guts {
   position: absolute;
   width: 17rem;
