@@ -79,37 +79,37 @@ ScrollReveal().reveal(".s-playlist", {
 });
 
 ScrollReveal().reveal(".rollingstone", {
-  origin: "left",
+  origin: "right",
   distance: "7rem",
   duration: 2000,
 });
 
 ScrollReveal().reveal(".tmdqa", {
-  origin: "left",
+  origin: "right",
   distance: "7rem",
   duration: 2000,
 });
 
 ScrollReveal().reveal(".ultimo_disco", {
-  origin: "right",
+  origin: "left",
   distance: "7rem",
   duration: 2000,
 });
 
 ScrollReveal().reveal(".last_disc", {
-  origin: "right",
+  origin: "left",
   distance: "7rem",
   duration: 2000,
 });
 
 ScrollReveal().reveal(".s-artista", {
-  origin: "right",
+  origin: "left",
   distance: "7rem",
   duration: 2000,
 });
 
 ScrollReveal().reveal(".s-disc_name", {
-  origin: "right",
+  origin: "left",
   distance: "7rem",
   duration: 2000,
 });
@@ -215,6 +215,7 @@ ScrollReveal().reveal(".s-stremio", {
 ScrollReveal().reveal(".topflix", {
   duration: 2000,
 });
+
 ScrollReveal().reveal(".s-topflix", {
   duration: 2000,
 });
@@ -244,5 +245,109 @@ ScrollReveal().reveal(".serie3", {
 });
 
 ScrollReveal().reveal(".serie4", {
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".multicanais", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".megacanais", {
+  origin: "right",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".warner", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".amc", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".sony", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".espn", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".tcp", {
+  origin: "right",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".tnt", {
+  origin: "right",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".cn", {
+  origin: "right",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".sportv", {
+  origin: "right",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".foxsports", {
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".libertadores", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".uefa", {
+  origin: "right",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".gremio", {
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".milan", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".liverpool", {
+  origin: "left",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".penarol", {
+  origin: "right",
+  distance: "7rem",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".st-pauli", {
+  origin: "right",
+  distance: "7rem",
   duration: 2000,
 });

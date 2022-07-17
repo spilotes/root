@@ -40,7 +40,7 @@ function channels() {
 
 function football() {
   window.scrollTo({
-    top: 5757,
+    top: 5940,
     left: 0,
     behavior: "smooth",
   });
