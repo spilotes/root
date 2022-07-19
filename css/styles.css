@@ -247,6 +247,34 @@ p {
   filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
 
+.gmail {
+  position: absolute;
+  width: 5rem;
+  top: 29rem;
+  left: 9rem;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.gmail:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
+}
+
+.gfotos {
+  position: absolute;
+  width: 5rem;
+  top: 29rem;
+  left: 16rem;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.gfotos:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
+}
+
 .dois {
   height: 215vh;
   width: 100vw;
