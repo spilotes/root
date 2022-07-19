@@ -387,3 +387,8 @@ ScrollReveal().reveal(".as", {
 ScrollReveal().reveal(".gazetta", {
   duration: 3000,
 });
+
+window.addEventListener("resize", function () {
+  if (window.innerWidth > 414) {
+  }
+});
