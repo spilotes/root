@@ -27,9 +27,11 @@
 /* Logo */
 
 .cabecalho .logo {
-  width: 8.5rem;
+  width: 9rem;
   top: 1em;
-  left: 9rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   position: absolute;
 }
 
@@ -65,41 +67,16 @@
   position: absolute;
 }
 
-#searchform {
+.lupa {
   position: absolute;
-  top: 0.9rem;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%);
-  border: none;
-}
-#s {
-  width: 17rem;
-  height: 2rem;
-  background: #fff;
-  border-radius: 0 1.5rem 1.5rem 0;
-  border: none;
-  font-size: 0.9rem;
+  left: 9rem;
+  top: 0.6rem;
+  width: 2.6rem;
+  transition: all 0.5s ease-in-out;
 }
 
-textarea:focus,
-input:focus {
-  box-shadow: 0 0 0 0;
-  outline: 0;
-}
-
-.btn-google {
-  position: absolute;
-  left: -2.5rem;
-  top: 0;
-  background: #fff;
-  border: 1px solid #fff;
-  width: 2.5rem;
-  height: 2rem;
-  cursor: pointer;
-  box-shadow: 0 0 0 0;
-  outline: 0;
-  border-radius: 1.5rem 0 0 1.5rem;
+.lupa:hover {
+  transform: scale(1.03);
 }
 
 .menu-container a {
@@ -250,7 +227,7 @@ p {
 .gmail {
   position: absolute;
   width: 5rem;
-  top: 29rem;
+  top: 31rem;
   left: 9rem;
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
@@ -264,13 +241,27 @@ p {
 .gfotos {
   position: absolute;
   width: 5rem;
-  top: 29rem;
+  top: 31rem;
   left: 16rem;
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
 }
 
 .gfotos:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.5rem 0 0.5rem #000000);
+}
+
+.gdocs {
+  position: absolute;
+  width: 5.3rem;
+  top: 31rem;
+  left: 23.1rem;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.gdocs:hover {
   transform: scale(1.03);
   filter: drop-shadow(0.5rem 0 0.5rem #000000);
 }
