@@ -1,18 +1,6 @@
 @media (max-width: 414px) {
-  .cabecalho .logo {
-    width: 8.5rem;
-    top: 1em;
-    left: 4%;
-  }
-
   .menu-container .menu {
     left: 0.8rem;
-  }
-
-  .logo {
-    width: 8rem;
-    top: 1rem;
-    left: 12rem;
   }
 
   .i1 {
@@ -31,9 +19,16 @@
     visibility: hidden;
   }
 
-  .lupa {
+  .cabecalho .logo {
+    width: 8.5rem;
+    top: 1.1rem;
+    left: 12rem;
+  }
+
+  .cabecalho .lupa {
     width: 1.7rem;
     right: 1rem;
+    top: 1rem;
   }
 
   .um {
