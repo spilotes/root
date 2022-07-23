@@ -66,13 +66,15 @@
   }
 
   .puck {
+    width: 4.8rem;
     top: 17rem;
-    right: 4rem;
+    right: 3.5rem;
   }
 
   .puck1 {
+    width: 7.9rem;
     top: 20rem;
-    left: 8rem;
+    left: 8.5rem;
   }
 
   .guts {
@@ -92,7 +94,7 @@
   }
 
   .gdocs {
-    top: 36rem;
+    top: 35.5rem;
     left: 3rem;
   }
 
@@ -102,13 +104,13 @@
 
   .musica {
     top: 52rem;
-    left: 32%;
+    left: 13rem;
   }
 
   .ozzy {
     width: 25.8rem;
     top: 57rem;
-    left: 0;
+    left: 12rem;
   }
 
   .top3 {
