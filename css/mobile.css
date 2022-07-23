@@ -534,7 +534,7 @@
 
   .gremio {
     top: 442.5rem;
-    left: 12.9rem;
+    left: 7rem;
   }
 
   .uefa {
@@ -569,37 +569,37 @@
 
   .ole {
     left: 1rem;
-    top: 463rem;
+    top: 464rem;
     width: 6.5rem;
   }
 
   .placar {
     left: 9rem;
-    top: 463rem;
+    top: 464rem;
     width: 6.5rem;
   }
 
   .ff {
-    left: 16rem;
-    top: 463.4rem;
+    right: 1rem;
+    top: 464.5rem;
     width: 8rem;
   }
 
   .fft {
     left: 1rem;
-    top: 471.2rem;
+    top: 472.2rem;
     width: 8.7rem;
   }
 
   .as {
-    left: 8rem;
-    top: 471.1rem;
-    width: 16rem;
+    left: 16rem;
+    top: 472.1rem;
+    width: 9rem;
   }
 
   .gazetta {
-    left: 12.9rem;
-    top: 479.6rem;
+    left: 7rem;
+    top: 478.6rem;
     width: 13rem;
   }
 
@@ -615,7 +615,7 @@
 
   .news-gif {
     width: 22rem;
-    top: 492rem;
+    top: 493rem;
     left: 12.9rem;
   }
 
