@@ -621,13 +621,13 @@
 
   .a-net {
     width: 17rem;
-    top: 495rem;
+    top: 505rem;
     left: 1rem;
   }
 
   .start {
-    top: 540rem;
-    left: 16rem;
+    top: 545rem;
+    left: 20rem;
     font-size: 1.4;
   }
 }
