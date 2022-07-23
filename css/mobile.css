@@ -22,13 +22,19 @@
   .cabecalho .logo {
     width: 8.5rem;
     top: 1.1rem;
-    left: 12rem;
+    left: 13rem;
   }
 
   .cabecalho .lupa {
     width: 1.7rem;
     right: 1rem;
     top: 1rem;
+  }
+
+  .menu-container .select {
+    font-size: 2.8rem;
+    margin-top: 0;
+    margin-left: 3.2rem;
   }
 
   .um {
@@ -47,12 +53,6 @@
     font-size: 1.2rem;
   }
 
-  .weather {
-    top: 5rem;
-    left: 93%;
-    font-size: 0.8rem;
-  }
-
   q {
     left: 7.2%;
     top: 12rem;
@@ -65,10 +65,35 @@
     font-size: 1rem;
   }
 
+  .puck {
+    top: 7rem;
+    right: 6rem;
+  }
+
+  .puck1 {
+    top: 10rem;
+    left: 6rem;
+  }
+
   .guts {
     width: 14rem;
     top: 26rem;
     left: 38%;
+  }
+
+  .gmail {
+    top: 26rem;
+    left: 3rem;
+  }
+
+  .gfotos {
+    top: 30rem;
+    left: 3rem;
+  }
+
+  .gdocs {
+    top: 34rem;
+    left: 3rem;
   }
 
   .dois {
@@ -105,7 +130,7 @@
   }
 
   .mon {
-    top: 17.6rem;
+    top: 67.6rem;
     left: 68%;
     width: 7rem;
   }
