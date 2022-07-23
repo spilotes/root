@@ -604,7 +604,7 @@
   }
 
   .oito {
-    height: 100vh;
+    height: 150vh;
   }
 
   .news {
@@ -621,12 +621,12 @@
 
   .a-net {
     width: 17rem;
-    top: 435rem;
+    top: 495rem;
     left: 1rem;
   }
 
   .start {
-    top: 510rem;
+    top: 540rem;
     left: 16rem;
     font-size: 1.4;
   }
