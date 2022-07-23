@@ -350,6 +350,8 @@
   }
 
   .camera:active {
+    top: 272rem;
+    left: 0;
     transform: none;
   }
 
@@ -444,68 +446,68 @@
 
   .multicanais {
     width: 16rem;
-    top: 397rem;
+    top: 387rem;
     left: 19%;
   }
 
   .megacanais {
     width: 14rem;
-    top: 400rem;
+    top: 390rem;
     left: 24%;
   }
 
   .warner {
     width: 6rem;
-    top: 404rem;
+    top: 399rem;
     left: 8%;
   }
 
   .amc {
     width: 6rem;
-    top: 405.4rem;
+    top: 400.4rem;
     left: 38.5%;
   }
 
   .sony {
     width: 5rem;
-    top: 404.4rem;
+    top: 399.4rem;
     left: 70%;
     border-radius: 0.6rem;
   }
 
   .tcp {
     width: 9rem;
-    top: 413.8rem;
+    top: 408.8rem;
     left: 2%;
   }
 
   .tnt {
     width: 6rem;
-    top: 412rem;
+    top: 407rem;
     left: 38.5%;
   }
 
   .cn {
     width: 6rem;
-    top: 413.5rem;
+    top: 408.5rem;
     left: 68%;
   }
 
   .espn {
     width: 7.7rem;
-    top: 421.7rem;
+    top: 416.7rem;
     left: 3%;
   }
 
   .foxsports {
     width: 7.5rem;
-    top: 420.5rem;
+    top: 416.5rem;
     left: 35%;
   }
 
   .sportv {
     width: 8rem;
-    top: 422rem;
+    top: 417rem;
     left: 66%;
   }
 
@@ -514,14 +516,14 @@
   }
 
   .football {
-    top: 428.5rem;
-    left: 33%;
+    top: 423.5rem;
+    left: 12.9rem;
   }
 
   .ronaldo {
     width: 25.6rem;
-    top: 433rem;
-    left: 0;
+    top: 428rem;
+    left: 12.9rem;
   }
 
   .libertadores {
@@ -563,6 +565,42 @@
     width: 6rem;
     top: 459rem;
     left: 73%;
+  }
+
+  .ole {
+    left: 1rem;
+    top: 413rem;
+    width: 7rem;
+  }
+
+  .placar {
+    left: 18rem;
+    top: 413rem;
+    width: 7rem;
+  }
+
+  .ff {
+    left: 1rem;
+    top: 413.2rem;
+    width: 10rem;
+  }
+
+  .fft {
+    left: 1rem;
+    top: 413.2rem;
+    width: 9.2rem;
+  }
+
+  .as {
+    left: 1rem;
+    top: 413.1rem;
+    width: 9.5rem;
+  }
+
+  .gazetta {
+    left: 1rem;
+    top: 413.6rem;
+    width: 13rem;
   }
 
   .oito {
