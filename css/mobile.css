@@ -6,15 +6,13 @@
   }
 
   .menu-container .menu {
-    left: 1rem;
+    left: 0.8rem;
   }
 
   .logo {
     width: 8rem;
     top: 1em;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%);
+    left: 10rem;
   }
 
   .i1 {
@@ -34,7 +32,7 @@
   }
 
   .lupa {
-    width: 1.5rem;
+    width: 1.7rem;
     right: 1rem;
   }
 
