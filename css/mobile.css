@@ -132,7 +132,7 @@
   }
 
   .mon {
-    top: 85.7rem;
+    top: 86.7rem;
     right: 1rem;
     width: 7rem;
   }
@@ -161,7 +161,7 @@
 
   .spotify {
     top: -5.2rem;
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
   }
 
   .s-spotify {
@@ -232,12 +232,12 @@
   .banner {
     width: 25.8rem;
     top: 135rem;
-    left: 12rem;
+    left: 12.9rem;
   }
 
   .mangalivre {
     top: 153.1rem;
-    left: 12rem;
+    left: 8rem;
   }
 
   .s-mangalivre {
@@ -296,15 +296,15 @@
     height: 160vh;
   }
 
+  .anime {
+    top: 189.5rem;
+    left: 12rem;
+  }
+
   .mirai {
     top: 196rem;
     left: 0;
     width: 25.8rem;
-  }
-
-  .anime {
-    top: 189.5rem;
-    left: 33%;
   }
 
   .superanimes {
@@ -340,18 +340,13 @@
 
   .movies {
     top: 267rem;
-    left: 20.5%;
+    left: 12.9rem;
   }
 
   .camera {
     width: 25.8rem;
     top: 272rem;
     left: 0;
-  }
-
-  .camera:active {
-    top: 272rem;
-    transform: none;
   }
 
   .netflix {
